@@ -25,6 +25,7 @@ h1,
 
 h2,
 .title2 {
+  text-transform: uppercase;
   font-size: 36px;
   line-height: 42px;
   font-weight: 400;
@@ -69,7 +70,6 @@ h6,
     width: 270px;
     height: 58px;
     padding: 21px 0;
-    border: none;
     outline: none;
     background-color: transparent;
     font-size: 18px;
@@ -79,6 +79,8 @@ h6,
     text-decoration: none;
     text-align: center;
     cursor: pointer;
+    transition: 0.5s;
+    border: 2px color white;
 }
 
 .button1:hover {
@@ -107,6 +109,7 @@ h6,
     text-align: center;
     cursor: pointer;
     border-radius: 0px 0px 10px 10px;
+    transition: 0.5s;
 }
 
 .button2:hover {
@@ -116,26 +119,281 @@ h6,
     background-color: #EC7979;
     box-shadow: inset 0px 0px 10px #AB4949;
 }
-
-
-.bg-fon {
-    background-color:rgba(0,0,0,.3);
-    height:100%;
-    position:absolute;
-    width:100%;
-    top:0;
-    left:0;
-}
-
 .subtitle {
     font-weight: 400;
     font-size: 18px;
     line-height: 21px;
     color: #86878B;
 }
-
 .underline {
     width: 170px;
     height: 0px;
     border: 1px solid #EC7979;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+.head {
+  background-color: black;
+  padding: 22px 115px;
+}
+.head__menu {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 19px;
+}
+.wrap-banner {
+  padding: 50px 0;
+  background-image: url(/images/image.png);
+}
+.wrap-banner__info {
+color: white;
+}
+.wrap-banner__title {
+  margin-bottom: 50px;
+}
+.wrap-banner__underline {
+  border: 1px solid #86878B;
+  margin-bottom: 30px;
+}
+.wrap-banner__text {
+  margin-bottom: 50px;
+}
+.button1 {
+  margin-bottom: 50px;
+}
+
+
+/*
+Без флекса будет выглядить ужастно(
+
+
+.wrap-banner__card-login {
+}
+.title4 {
+}
+.card-login__title {
+}
+.card-login__columns {
+}
+.card-login__row {
+}
+.card-login__input {
+}
+.button2 {
+}
+.card-login__button {
+}*/
+
+.social {
+  background-color: #F8EFEF;
+  padding: 20px 0;
+}
+.social__inf {
+}
+.social__title {
+  margin-bottom: 20px;
+}
+.wrapper-tabs {
+  padding: 50px 0;
+}
+.wrapper-tabs__content {
+  max-width: 50%;
+  padding: 40px 0;
+}
+.wrapper-tabs__title {
+  margin-bottom: 30px;
+}
+.wrapper-tabs__text {
+  margin-bottom: 15px;
+}
+.wrapper-tabs__button {
+  margin-top: 20px;
+  display: inline-block; 
+  width: 270px;
+  height: 58px;
+    padding: 21px 0;
+    border: none;
+    outline: none;
+    background-color: #EC7979;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 600;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 0px 0px 0px 0px;
+    transition: 0.5s;
+}
+.wrapper-tabs__fullscreen {
+  object-fit: cover;
+}
+.abillity {
+  text-align: center;
+}
+.abillity__title {
+  margin-bottom: 50px;
+}
+.abillity__underline {
+  margin-bottom: 50px;
+}
+.abillity__subtitle {
+  margin-bottom: 80px;
+}
+.abillity__card {
+  text-align: center;
+  max-width:370px;
+}
+.abillity__icon {
+  border-radius: 1px solid #ff0000;
+  border-radius: 50%;
+  padding: 15px;
+}
+.abillity__text {
+  margin-bottom: 30px;
+}
+.pricing {
+  background-color: #F5F5F5;
+  text-align: center;
+}
+.pricing__title {
+  margin-bottom: 50px;
+}
+.pricing__underline {
+  margin-bottom: 50px;
+}
+.pricing__subtitle {
+  margin-bottom: 50px;
+}
+.pricing__card {
+  min-width: 370px;
+}
+.card__title {
+  padding: 10px;
+  background-color: #333333;
+  border-bottom: 2px solid #F5F5F5;
+}
+.card__sell {
+  padding: 10px;
+  border-bottom: 2px solid #F5F5F5;
+  background-color: #333333;
+}
+.card__subtitle {
+  padding: 10px;
+  background-color: #333333;
+}
+
+.card__item {
+  padding: 5px;
+  border-bottom:1px solid #86878B ;
+}
+.coments {
+  text-align: center;
+}
+.comments__title {
+  margin-bottom: 50px;
+}
+.coments__underline {
+  margin-bottom: 50px;
+}
+.coments__subtitle {
+  margin-bottom: 80px;
+}
+.coments__card {
+  max-width:370px;
+}
+.coments__comment {
+  padding: 5px;
+  border-radius: 10px;
+  background-color: #E2E2E2;
+  margin-bottom: 50px;
+}
+.coments__triangle {
+  width: 15px;
+  height: 15px;
+  background-color:#E2E2E2;
+}
+.coments__name {
+  margin-bottom: 20px;
+}
+.banner2 {
+  background-image: url(/images/image\ \(1\).png);
+color: white;
+text-align: center;
+padding: 40px 0;
+}
+.banner2__title {
+  margin-bottom: 40px;
+}
+.banner2__underline {
+  margin-bottom: 40px;
+}
+.banner2__text {
+  margin-bottom: 40px;
+}
+.banner2__button {
+  display: inline-block; 
+  width: 370px;
+  height: 58px;
+  padding: 21px 0;
+  outline: none;
+  background-color: transparent;
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: 600;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.5s;
+  border: 2px color white;
+}
+.contact {
+  text-align: center;
+}
+.contact__title {
+  margin-bottom: 50px;
+}
+.contact__underline {
+  margin-bottom: 50px;
+}
+.contact__subtitle {
+  margin-bottom: 50px;
+}
+.contact__inputs {
+}
+.contact__textarea {
+  margin-bottom: 50px;
+}
+.contact__button {
+  display: inline-block; 
+  width: 370px;
+  height: 60px;
+  padding: 21px 0;
+  border: none;
+  outline: none;
+  background-color: #EC7979;
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: 600;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 0px 0px 0px 0px;
+  transition: 0.5s;
+  margin-bottom: 50px;
+}
+.foot {
+  background-color: black;
+  padding: 15px;
+}
+.foot__row {
+  margin-bottom: 35px;
+}
+.foot__text {
+  color: rgba(255, 255, 255, 0.514);
 }
