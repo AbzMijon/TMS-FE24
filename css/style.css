@@ -50,7 +50,6 @@ h4,
 
 h5,
 .title5 {
-  font-family: 'Raleway', sans-serif;
   font-size: 18px;
   line-height: 21px;
   font-weight: 400;
@@ -68,8 +67,8 @@ h6,
 
 .button {
   display: inline-block;
-  width: 270px;
-  height: 58px;
+  min-width: 270px;
+  min-height: 58px;
   padding: 21px 0;
   outline: none;
   background-color: transparent;
@@ -96,8 +95,8 @@ h6,
 
 .button--red {
   display: inline-block;
-  width: 470px;
-  height: 60px;
+  min-width: 470px;
+  min-height: 60px;
   padding: 21px 0;
   border: none;
   outline: none;
