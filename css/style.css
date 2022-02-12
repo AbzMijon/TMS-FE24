@@ -136,24 +136,45 @@ h6,
 }
 .header {
   background-color: black;
-  padding: 22px 115px;
 }
-
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
 .header__menu {
+  display: flex;
   font-size: 14px;
   font-weight: 700;
   line-height: 19px;
+}
+.header__item{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 135px;
+  height: 100px; 
+  cursor: pointer; 
+}
+.header__item:hover {
+  background-color: #EC7979;
+}
+.header__item:active {
+  background-color: #AB4949;
 }
 .header__link {
   text-decoration: none;
   color: white;
 }
 .wrap-banner {
-  padding: 50px 0;
+  padding: 200px 0;
   background-image: url(/images/image.png);
 }
-
+.wrap-ban {
+  display: flex;
+}
 .wrap-banner__info {
+  margin-right: 35px;
   color: white;
 }
 
@@ -171,49 +192,84 @@ h6,
 }
 
 .button {
+  border: 2px solid white;
   margin-bottom: 50px;
 }
 
-
-/*
-Без флекса будет выглядить ужастно(
-
-
 .wrap-banner__card-login {
-}
-.title4 {
+  max-width: 470px;
+  max-height: 450px;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  justify-content: space-between;
 }
 .card-login__title {
+  margin-top: 20px;
+  text-transform: uppercase;
+}
+span {
+  color: #EC7979;
 }
 .card-login__columns {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 .card-login__row {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 .card-login__input {
-}
-.button2 {
+  color: #BDBDBD;
+  width: 80%;
+  border: none;
+  border-bottom: 1px solid #BDBDBD;
+  padding: 15px;
+  margin-bottom: 33px;
 }
 .card-login__button {
-}*/
-
+}
+.social__wrap {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
 .social {
   background-color: #F8EFEF;
   padding: 20px 0;
 }
 
-.social__inf {}
+.social__inf {
+  margin-right: 57px;
+}
 
 .social__title {
   margin-bottom: 20px;
 }
-
+.social__list {
+  display: flex;
+}
+.social__item{
+  margin-right: 35px;
+}
 .wrapper-tabs {
-  padding: 50px 0;
+  margin: 100px 0;
+  display: flex;
+  border: 1px solid #C6CBCD;
 }
 
 .wrapper-tabs__content {
-  max-width: 50%;
-  padding: 40px 0;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .wrapper-tabs__title {
