@@ -147,8 +147,9 @@ nav {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 135px;
+  min-width: 135px;
   height: 100px; 
+  padding: 5px;
   cursor: pointer; 
 }
 .header__item:hover {
