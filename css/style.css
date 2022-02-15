@@ -78,7 +78,7 @@ h6,
   text-decoration: none;
   text-align: center;
   cursor: pointer;
-  border: 2px color white;
+  border: 2px solid white;
 }
 
 .button:hover {
@@ -130,6 +130,9 @@ h6,
   border: 1px solid #EC7979;
 }
 .header {
+  position: fixed;
+  z-index: 3;
+  width: 100%;
   background-color: black;
 }
 nav {
@@ -148,7 +151,7 @@ nav {
   align-items: center;
   justify-content: center;
   min-width: 135px;
-  height: 100px; 
+  height: 75px; 
   padding: 5px;
   cursor: pointer; 
 }
@@ -163,21 +166,18 @@ nav {
   color: white;
 }
 .wrap-banner {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  background-image: url(/images/image.png);
-  height: 1026px;
+  background:linear-gradient( rgba(0, 0, 0 , 0.5), rgba(0, 0, 0, 0.5)) , url(/images/image.png);
+  background-size: contain;
 }
 .wrap-ban {
   display: flex;
 }
 .wrap-banner__info {
-  margin-right: 35px;
+  margin-right: 30px;
   color: white;
 }
 .wrap-banner__logo-png{
-  margin-bottom: 72px;
+  margin: 305px 0 72px 0;
 }
 .wrap-banner__title {
   margin-bottom: 55px;
@@ -186,18 +186,20 @@ nav {
 .wrap-banner__underline {
   border: 1px solid #86878B;
   margin: 0;
-  margin-bottom: 40px;
+  margin-bottom: 42px;
 }
 
 .wrap-banner__text {
-  margin-bottom: 40px;
+  margin-bottom: 42px;
 }
 
-.button {
+.wrap-banner__button {
   border: 2px solid white;
+  margin-bottom: 185px;
 }
 
 .wrap-banner__card-login {
+  margin: 280px 0 290px 0;
   max-width: 470px;
   max-height: 450px;
   background-color: white;
@@ -227,6 +229,8 @@ span {
   flex-direction: column;
 }
 .card-login__input {
+  font-family: 'open sans';
+  font-weight: 400;
   color: #BDBDBD;
   width: 80%;
   border: none;
@@ -402,16 +406,22 @@ margin-bottom: 0;
 }
 
 .coments__comment {
+  position: relative;
   padding: 40px;
   border-radius: 10px;
   background-color: #E2E2E2;
   margin-bottom: 70px;
+  color:#86878B;
+  ;
 }
 
 .coments__triangle {
-  width: 15px;
-  height: 15px;
-  background-color: #E2E2E2;
+  position: absolute;
+  bottom: -30px;
+  left: 100px;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-top: 30px solid #E2E2E2;
 }
 .coments__info{
   display: flex;
@@ -427,16 +437,11 @@ margin-bottom: 0;
 }
 
 .banner2 {
-  background-image: url(/images/image1.png);
+  background: linear-gradient( rgba(0, 0, 0 , 0.5), rgba(0, 0, 0, 0.5)) , url(/images/image1.png);
   color: white;
   text-align: center;
   padding: 50px 0;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   width: 100%;
-  height: 442px;
 }
 
 .banner2__title {
@@ -444,7 +449,7 @@ margin-bottom: 0;
 }
 
 .banner2__underline {
-  margin-bottom: 40px;
+  margin-bottom: 50px;
   border-color:white ;
 }
 
@@ -454,9 +459,8 @@ margin-bottom: 0;
 }
 
 .banner2__button {
-  width: 370px;
-  height: 58px;
-  margin-bottom: 0;
+  min-width: 370px;
+  min-height: 58px;
 }
 
 .contact {
