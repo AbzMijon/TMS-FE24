@@ -13,9 +13,11 @@ article,aside,audio,canvas,command,datalist,details,embed,figcaption,figure,foot
 body {
   font: 400 18px/21px 'Raleway', sans-serif;
 }
+
 input , textarea {
   background-color: inherit;
 }
+
 .container {
   max-width: 1185px;
   padding: 0 15px;
