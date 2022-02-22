@@ -4,7 +4,7 @@ article,aside,audio,canvas,command,datalist,details,embed,figcaption,figure,foot
 
 :root {
   --main__color-black:#ffffff;
-  --offset
+  --offset: 20px;
   --column4: 25% ;
   --column3: 32% ;
   --column2: 50% ;
@@ -98,7 +98,7 @@ h6,
   border-color: #EC7979;
 }
 
-.button:active {
+.button--trasparent:active {
   background-color: #AB4949;
   border-color: #AB4949;
   color: white;
@@ -119,7 +119,6 @@ h6,
   text-align: center;
   cursor: pointer;
   border-radius: 0px 0px 10px 10px;
-  transition: 0.5s;
 }
 
 .button--red:hover {
@@ -157,8 +156,7 @@ nav {
   width: 100%;
 }
 .header__logo img {
-  margin-right: 287px;
-  margin-left: -39px;
+  margin-left: -40px;
 }
 .header__menu {
   display: flex;
@@ -192,8 +190,10 @@ nav {
   padding: 210px 0 185px 0;
 
 }
+
 .wrap-ban {
   display: flex;
+  align-items: center;
 }
 .wrap-banner__info {
   margin-right: 30px;
@@ -222,23 +222,21 @@ nav {
 
 .wrap-banner__card-login {
   max-width: 470px;
-  max-height: 450px;
   background-color: var(--main__color-black);
   border-radius: 10px;
   display: flex;
   flex-direction: column;
   align-items:center;
-  justify-content: space-between;
+  padding: 30px 30px 0 30px;
 }
+
 .card-login__title {
-  margin-top: 20px;
   text-transform: uppercase;
 }
 span {
   color: #EC7979;
 }
 .card-login__columns {
-  margin: 45px 0 75px 0;
   width: 100%;
   display: flex;
   align-items: center;
@@ -250,6 +248,12 @@ span {
   align-items: center;
   flex-direction: column;
 }
+.card-login__title {
+  margin-bottom: 45px;
+}
+.card-login__button {
+  margin-top: 75px;
+}
 .card-login__input {
   font-family: 'open sans';
   font-weight: 400;
@@ -257,11 +261,13 @@ span {
   width: 80%;
   border: none;
   border-bottom: 1px solid #BDBDBD;
-  padding-bottom: 15px;
-  margin-bottom: 33px;
+  padding: 15px;
 }
-.card-login__input:nth-child(3) {
-  margin: 0;
+.card-login__row + .card-login__row {
+  margin-top: 30px;
+}
+.card-login__input:focus {
+  border-color: #000;
 }
 .social__wrap {
   display: flex;
@@ -385,15 +391,14 @@ display: flex;
   flex-wrap:wrap;
   display: flex;
   justify-content: space-between;
-  margin: 0 calc(var(--offset / -2));
+  margin: 0 calc(var(--offset) / -2);
 }
 .pricing__card {
   flex-shrink: 0;
   width: var(--column3);
   padding: 0 calc(var(--offset / 2));
-  margin-bottom: 20px;
+  margin-bottom: var(--offset);
   box-shadow: 0px 0px 10px black;
-  margin-right: 0px;
 }
 .pricing__card:nth-child(2) {
   transform: translateY(-20px);
