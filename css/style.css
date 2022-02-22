@@ -153,7 +153,12 @@ h6,
 nav {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
+  width: 100%;
+}
+.header__logo img {
+  margin-right: 287px;
+  margin-left: -39px;
 }
 .header__menu {
   display: flex;
@@ -162,6 +167,7 @@ nav {
   line-height: 19px;
 }
 .header__item{
+  flex-wrap: wrap;
   display: flex;
   align-items: center;
   justify-content: center;
