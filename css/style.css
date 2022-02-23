@@ -255,7 +255,7 @@ span {
 label {
   color: #BDBDBD;
   position: absolute;
-  top: 10px;
+  top: 0px;
   left: 10%;
   font-family: 'Open Sans';
   font-style: normal;
@@ -264,12 +264,8 @@ label {
   line-height: 19px;
   transition: 0.5s;
 }
-.card-form__input:focus {
-  outline: none;
-}
-label:focus {
-  top: 20px;
-}
+
+
 .card-form__input:focus + label{
   top: -10px;
   transform: scale(0.8);
