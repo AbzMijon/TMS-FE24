@@ -52,16 +52,19 @@
                     <form>
                     <div class="card-form__columns">
                         <div class="card-form__row">
-                            <input class="card-form__input" type="text" placeholder="Name" required>
+                            <input name="form-name" id="label-title" class="card-form__input" type="text" required>
+                            <label for="label-title">Name</label>
                         </div>
                         <div class="card-form__row">
-                            <input class="card-form__input" type="email" placeholder="Email" required>
+                            <input name="form-email" id="label-title" class="card-form__input" type= 'text' required>
+                            <label for="label-title">Email</label>
                         </div>
                         <div class="card-form__row">
-                            <input class="card-form__input" type="password" placeholder="Password" required>
+                            <input name="form-pass" id="label-title" class="card-form__input" type="password" required>
+                            <label for="label-title">Password</label>
                         </div>
                     </div>
-                    <button type="submit" class="button--red card-form__button">Get Started</button>
+                    <button name="form-btn" type="submit" class="button--red card-form__button">Get Started</button>
                 </div> 
             </form>
           </div>
@@ -303,15 +306,26 @@
                 <p class="subtitle contact__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 <div class="contact__wrap-inputs">
                     <div class="contact__inputs">
-                        <input type="text" placeholder="Name" required>
-                        <input type="email" placeholder="Email" required>
-                        <input type="password" placeholder="Password" required>
+                        <div class="card-form__columns">
+                            <div class="card-form__row">
+                                <input name="form-name" id="label-title" class="card-form__input" type="text" required>
+                                <label for="label-title">Name</label>
+                            </div>
+                            <div class="card-form__row">
+                                <input name="form-email" id="label-title" class="card-form__input" type= 'text' required>
+                                <label for="label-title">Email</label>
+                            </div>
+                            <div class="card-form__row">
+                                <input name="form-pass" id="label-title" class="card-form__input" type="password" required>
+                                <label for="label-title">Password</label>
+                            </div>
+                        </div>
                     </div>
                     <div class="contact__textarea">
-                        <textarea  cols="60"  placeholder="Message"></textarea>
+                        <textarea name="message-form" cols="60"  placeholder="Message"></textarea>
                     </div>
                 </div>
-                <button type="submit" class="button--red contact__button">Send Message</button>
+                <button name="form-btn" type="submit" class="button--red contact__button">Send Message</button>
             </div>
         </form>
             </section>

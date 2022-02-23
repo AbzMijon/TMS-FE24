@@ -250,6 +250,29 @@ span {
   display: flex;
   align-items: center;
   flex-direction: column;
+  position: relative;
+}
+label {
+  color: #BDBDBD;
+  position: absolute;
+  top: 10px;
+  left: 10%;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  transition: 0.5s;
+}
+.card-form__input:focus {
+  outline: none;
+}
+label:focus {
+  top: 20px;
+}
+.card-form__input:focus + label{
+  top: -10px;
+  transform: scale(0.8);
 }
 .card-form__title {
   margin-bottom: 45px;
