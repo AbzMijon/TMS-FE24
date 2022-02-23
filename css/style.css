@@ -61,3 +61,41 @@ ul li::before {
   height: 100%;
   object-fit: cover;
 }
+* {
+  box-sizing: border-box;
+}
+
+
+
+
+
+.wrap-form {
+  position: relative;
+}
+
+label {
+  transition: 0.5s;
+  position: absolute;
+  top: 7px;
+  left: 10px;
+  font-size: 20px;
+}
+
+
+input:focus {
+  outline: none;
+  overflow: hidden;
+}
+
+label:focus {
+  top: 20px;
+  left: 10px;
+}
+
+::placeholder:focus {
+  opacity: 1;
+}
+input:focus+label{
+  top: -5px;
+  transform: scale(0.8);
+}
