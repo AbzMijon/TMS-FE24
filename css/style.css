@@ -21,6 +21,9 @@ body {
 input , textarea {
   background-color: inherit;
 }
+input:focus , textarea:focus {
+  border-color: #000
+}
 
 .container {
   max-width: 1200px;
@@ -134,7 +137,7 @@ h6,
   color: #86878B;
 }
 
-.underline {
+.divider {
   margin: 0 auto;
   width: 170px;
   height: 0px;
@@ -194,9 +197,9 @@ nav {
 .wrap-ban {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 .wrap-banner__info {
-  margin-right: 30px;
   color: white;
 }
 .wrap-banner__logo-png{
@@ -206,7 +209,7 @@ nav {
   margin-bottom: 55px;
 }
 
-.wrap-banner__underline {
+.wrap-banner__divider {
   border: 1px solid #86878B;
   margin: 0;
   margin-bottom: 42px;
@@ -220,7 +223,7 @@ nav {
   border: 2px solid white;
 }
 
-.wrap-banner__card-login {
+.wrap-banner__card-form {
   max-width: 470px;
   background-color: var(--main__color-black);
   border-radius: 10px;
@@ -230,43 +233,44 @@ nav {
   padding: 30px 30px 0 30px;
 }
 
-.card-login__title {
+.card-form__title {
   text-transform: uppercase;
 }
 span {
   color: #EC7979;
 }
-.card-login__columns {
+.card-form__columns {
   width: 100%;
   display: flex;
   align-items: center;
   flex-direction: column;
 }
-.card-login__row {
+.card-form__row {
   width: 100%;
   display: flex;
   align-items: center;
   flex-direction: column;
 }
-.card-login__title {
+.card-form__title {
   margin-bottom: 45px;
 }
-.card-login__button {
+.card-form__button {
   margin-top: 75px;
 }
-.card-login__input {
+.card-form__input {
   font-family: 'open sans';
   font-weight: 400;
-  color: #BDBDBD;
+  color: #000000;
   width: 80%;
   border: none;
   border-bottom: 1px solid #BDBDBD;
   padding: 15px;
+  outline: none;
 }
-.card-login__row + .card-login__row {
+.card-form__row + .card-form__row {
   margin-top: 30px;
 }
-.card-login__input:focus {
+.card-form__input:focus {
   border-color: #000;
 }
 .social__wrap {
@@ -488,6 +492,7 @@ display: flex;
 
 .banner2 {
   background: linear-gradient( rgba(0, 0, 0 , 0.5), rgba(0, 0, 0, 0.5)) , url(/images/image1.png);
+  background-size: cover;
   color: white;
   text-align: center;
   padding: 50px 0;
@@ -498,7 +503,9 @@ display: flex;
   color: white;
   margin-bottom: 70px;
 }
-
+.banner2__divider{
+  border-color: #fff;
+}
 .banner2__button {
   min-width: 370px;
   min-height: 58px;
@@ -525,6 +532,8 @@ display: flex;
 .contact__inputs input {
   width: 571px;
   border: none;
+  color: #000000;
+  outline: none;
   border-bottom: 1px solid #86878B;
   padding: 15px;
   margin-bottom: 50px;
