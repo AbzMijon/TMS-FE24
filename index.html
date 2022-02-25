@@ -9,7 +9,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500;700&family=Raleway:wght@500;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="./css/bootstrap-grid.css">
+    <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/responsive">
 </head>
 
@@ -36,8 +37,8 @@
             
             <section class="wrap-banner">
                 <div class="container">
-            <div class="wrap-ban row">
-                <div class="wrap-banner__info col-sm-12">
+            <div class="row">
+                <div class="col-xl-7 col-lg-7 col-sm-12">
                     <div class="wrap-banner__logo">
                         <img class="wrap-banner__logo-png" src="/images/logo.png" alt="">
                     </div>
@@ -46,8 +47,9 @@
                     <p class="subtitle wrap-banner__text">Lorem ipsum dolor sit amet,<br> consectetur adipiscing elit</p>
                     <button class="button--trasparent wrap-banner__button">Download</button>
                 </div>
-                <form>
-                <div class="wrap-banner__card-form col-sm-12">
+                <div class="col-xl-5 col-lg-5 col-sm-12">
+                <form>                
+                <div class="wrap-banner__card-form">
                     <div class="title4 card-form__title">Try Your <span>FREE</span> Trial Today
                     </div>
                     <form>
@@ -68,6 +70,7 @@
                     <button name="form-btn" type="submit" class="button--red card-form__button">Get Started</button>
                 </div> 
             </form>
+                </div>
           </div>
         </div>
             </section>
@@ -162,66 +165,61 @@
                 <h2 class="title2 pricing__title">pricing options</h2>
                 <hr class="divider pricing__divider"></hr>
                 <p class="subtitle pricing__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                <ul class="pricing__row">
-                    <li class="pricing__card">
-                        <div class="title4 card__title">
-                            <h4>Basic</h4>
-                        </div>
-                        <div class="card__sell">
-                            <h3>$10</h3>
-                        </div>
-                        <div class="subtitle card__subtitle">
-                            <p>Free for life</p>
-                        </div>
-                            <ul class="card__list">
-                                <li class="card__item">1 gb of space</li>
-                                <li class="card__item">1 gb of space</li>
-                                <li class="card__item">1 gb of space</li>
-                                <li class="card__item">1 gb of space</li>
-                                <li class="card__item">1 gb of space</li>
-                                <li class="card__item">1 gb of space</li>
-                            </ul>
-                    </li>
-                    <li class="pricing__card">
-                        <div class="title4 card__title">
-                            <h4>Optima</h4>
-                        </div>
-                        <div class="card__sell">
-                            <h3>$20</h3>
-                        </div>
-                        <div class="subtitle card__subtitle">
-                            <p>Free for life</p>
-                        </div>
-                            <ul class="card__list">
-                                <li class="card__item">1 gb of space</li>
-                                <li class="card__item">1 gb of space</li>
-                                <li class="card__item">1 gb of space</li>
-                                <li class="card__item">1 gb of space</li>
-                                <li class="card__item">1 gb of space</li>
-                                <li class="card__item">1 gb of space</li>
-                            </ul>
-                    </li>
-                    <li class="pricing__card">
-                        <div class="title4 card__title">
-                            <h4>Pro</h4>
-                        </div>
-                        <div class="card__sell">
-                            <h3>$30</h3>
-                        </div>
-                        <div class="subtitle card__subtitle">
-                            <p>Free for life</p>
-                        </div>
-                            <ul class="card__list">
-                                <li class="card__item">1 gb of space</li>
-                                <li class="card__item">1 gb of space</li>
-                                <li class="card__item">1 gb of space</li>
-                                <li class="card__item">1 gb of space</li>
-                                <li class="card__item">1 gb of space</li>
-                                <li class="card__item">1 gb of space</li>
-                            </ul>
-                    </li>
+                
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="pricing__card">
 
-                </ul>
+                            <h4 class="title4 card__title">Basic</h4>
+
+                            <div class="card__sell">$10</div>
+                            <div class="subtitle card__subtitle">Free for life</div>
+                            <ul class="card__list">
+                                <li class="card__item">1 gb of space</li>
+                                <li class="card__item">1 gb of space</li>
+                                <li class="card__item">1 gb of space</li>
+                                <li class="card__item">1 gb of space</li>
+                                <li class="card__item">1 gb of space</li>
+                                <li class="card__item">1 gb of space</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="pricing__card">
+
+                            <h4 class="title4 card__title">Basic</h4>
+
+                            <div class="card__sell">$10</div>
+                            <div class="subtitle card__subtitle">Free for life</div>
+                            <ul class="card__list">
+                                <li class="card__item">1 gb of space</li>
+                                <li class="card__item">1 gb of space</li>
+                                <li class="card__item">1 gb of space</li>
+                                <li class="card__item">1 gb of space</li>
+                                <li class="card__item">1 gb of space</li>
+                                <li class="card__item">1 gb of space</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="pricing__card">
+
+                            <h4 class="title4 card__title">Basic</h4>
+
+                            <div class="card__sell">$10</div>
+                            <div class="subtitle card__subtitle">Free for life</div>
+                            <ul class="card__list">
+                                <li class="card__item">1 gb of space</li>
+                                <li class="card__item">1 gb of space</li>
+                                <li class="card__item">1 gb of space</li>
+                                <li class="card__item">1 gb of space</li>
+                                <li class="card__item">1 gb of space</li>
+                                <li class="card__item">1 gb of space</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
             </div>
             </section>
             <section class="coments">
@@ -299,36 +297,43 @@
             </div>
             </section>
 
-            <section class="contact">
-                <form>
+            <section class="contact"> 
                 <div class="container">
                 <h2 class="contact__title">contact us</h2>
                 <hr class="divider contact__divider"></hr>
                 <p class="subtitle contact__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                <div class="contact__wrap-inputs">
-                    <div class="contact__inputs">
-                        <div class="card-form__columns">
-                            <div class="card-form__row">
-                                <input name="form-name" id="label-title" class="card-form__input" type="text" required>
-                                <label for="label-title">Name</label>
-                            </div>
-                            <div class="card-form__row">
-                                <input name="form-email" id="label-title" class="card-form__input" type= 'text' required>
-                                <label for="label-title">Email</label>
-                            </div>
-                            <div class="card-form__row">
-                                <input name="form-pass" id="label-title" class="card-form__input" type="password" required>
-                                <label for="label-title">Password</label>
-                            </div>
+               
+                <form>
+                <div class="row">
+                    
+                    <div class="col-xl-6">
+                        <div class="card-form__row">
+                            <input name="form-name" id="label-title" class="card-form__input" type="text" required>
+                            <label for="label-title">Name</label>
+                        </div>
+                        <div class="card-form__row">
+                            <input name="form-email" id="label-title" class="card-form__input" type= 'text' required>
+                            <label for="label-title">Email</label>
+                        </div>
+                        <div class="card-form__row">
+                            <input name="form-pass" id="label-title" class="card-form__input" type="password" required>
+                            <label for="label-title">Password</label>
                         </div>
                     </div>
-                    <div class="contact__textarea">
-                        <textarea name="message-form" cols="60"  placeholder="Message"></textarea>
+
+                    <div class="col-xl-6 ">
+                        <div class="contact__textarea">
+                            <textarea name="message-form" cols="60"  placeholder="Message"></textarea>
+                        </div>
                     </div>
+
                 </div>
                 <button name="form-btn" type="submit" class="button--red contact__button">Send Message</button>
+            </form>
+               
+                
+                
             </div>
-        </form>
             </section>
         </main>
         <footer class="foot">

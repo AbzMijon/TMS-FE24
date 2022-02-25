@@ -25,11 +25,6 @@ input:focus , textarea:focus {
   border-color: #000
 }
 
-.container {
-  max-width: 1200px;
-  padding: 0 15px;
-  margin: 0 auto;
-}
 
 h1,
 .title1 {
@@ -191,17 +186,10 @@ nav {
   background:linear-gradient( rgba(0, 0, 0 , 0.5), rgba(0, 0, 0, 0.5)) , url(/images/image.png) no-repeat;
   background-size: cover;
   padding: 210px 0 185px 0;
-
-}
-
-.wrap-ban {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-.wrap-banner__info {
   color: white;
 }
+
+
 .wrap-banner__logo-png{
   margin: 0 0 72px 0;
 }
@@ -224,7 +212,7 @@ nav {
 }
 
 .wrap-banner__card-form {
-  max-width: 470px;
+  color: #000;
   background-color: var(--main__color-black);
   border-radius: 10px;
   display: flex;
@@ -415,10 +403,6 @@ display: flex;
   margin: 0 calc(var(--offset) / -2);
 }
 .pricing__card {
-  flex-shrink: 0;
-  width: var(--column3);
-  padding: 0 calc(var(--offset / 2));
-  margin-bottom: var(--offset);
   box-shadow: 0px 0px 10px black;
 }
 .pricing__card:nth-child(2) {
