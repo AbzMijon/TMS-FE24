@@ -26,30 +26,32 @@ html {
   margin-right: auto;
   margin-left: auto;
 }
-
-@media (min-width: 576px) {
+@media (max-width: 1200px) {
   .container {
-    max-width: 540px;
+    max-width: 1140px;
   }
 }
-
-@media (min-width: 768px) {
+@media (max-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+@media (max-width: 768px) {
   .container {
     max-width: 720px;
   }
 }
 
-@media (min-width: 992px) {
+@media (max-width: 576px) {
   .container {
-    max-width: 960px;
+    max-width: 540px;
   }
 }
 
-@media (min-width: 1200px) {
-  .container {
-    max-width: 1140px;
-  }
-}
+
+
+
+
 
 .container-fluid {
   width: 100%;
