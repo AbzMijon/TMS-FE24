@@ -153,13 +153,13 @@ h6,
 
 nav {
   display: flex;
-  align-items: center;
   justify-content: space-between;
 }
 
 .header__logo img {
   margin-left: -40px;
 }
+
 
 .header__menu {
   display: flex;
@@ -199,7 +199,9 @@ nav {
   color: white;
 }
 
-
+.wrap-banner__main {
+  max-width: 700px;
+}
 .wrap-banner__logo-png {
   margin: 0 0 72px 0;
 }
@@ -300,9 +302,9 @@ label {
 }
 .social__wrap {
   display: flex;
-  justify-content: space-between;
   align-items: center;
 }
+
 .social__inf {
   margin-right: 50px;
 }
@@ -315,8 +317,8 @@ label {
   display: flex;
 }
 
-.social__item {
-  margin-right: 45px;
+.social__item + .social__item {
+  margin-left: 45px;
 }
 
 .tabs {
@@ -361,10 +363,10 @@ label {
 
 .tabs-titles__item:first-child::before {
   content: '';
-  bottom: -1px;
+  bottom: -5px;
   position: absolute;
   width: 100%;
-  border-bottom: 1px solid #ffffff;
+  border-bottom: 10px solid #ffffff;
 }
 
 .wrapper-tabs__title {
@@ -376,18 +378,14 @@ label {
 }
 
 .wrapper-tabs__button {
-  min-width: 270px;
-  min-height: 58px;
+  width: 270px;
+  height: 58px;
   border-radius: 0px 0px 0px 0px;
   transition: 0.5s;
 }
 
-.wrapper-tabs__img img {
-  object-fit: cover;
-}
-
 .abillity {
-  padding: 0 0 60px 0;
+  padding: 0 0 40px 0;
   text-align: center;
   background-color: var(--main__color-black);
 }
@@ -395,7 +393,9 @@ label {
 .abillity__subtitle {
   margin-bottom: 110px;
 }
-
+.abillity__card-title {
+  margin-bottom: 10px;
+}
 .abillity__row {
   display: flex;
   justify-content: space-between;
@@ -460,7 +460,7 @@ label {
 .card__item {
   background-color: #fff;
   text-transform: capitalize;
-  padding: 12px 0 12px;
+  padding: 15px 0;
   border-bottom: 2px solid #F5F5F5;
 }
 
@@ -532,7 +532,6 @@ label {
   color: white;
   text-align: center;
   padding: 50px 0;
-  width: 100%;
 }
 
 .banner2__text {
@@ -579,7 +578,6 @@ label {
   padding: 15px;
   margin-bottom: 50px;
   margin-right: 30px;
-  height: 100%;
 }
 
 .contact__textarea {
@@ -589,6 +587,7 @@ label {
 textarea {
   border: none;
   border-bottom: 1px solid #86878B;
+  padding: 0 0 175px 0;
   height: 100%;
 }
 
@@ -600,9 +599,6 @@ textarea {
 
 .foot {
   background-color: #000000;
-  padding: 15px;
-  display: flex;
-  justify-content: center;
   text-align: center;
   color: #ffffff83;
   padding: 40px 0 30px 0;
@@ -610,6 +606,7 @@ textarea {
 
 .foot__row {
   display: flex;
+  justify-content: center;
   margin-bottom: 30px;
 }
 

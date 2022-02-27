@@ -13,7 +13,7 @@
         rel="stylesheet">
     <link rel="stylesheet" href="./css/bootstrap-grid.css">
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/responsive">
+    <link rel="stylesheet" href="./css/responsive.css">
 </head>
 
 <body>
@@ -39,7 +39,7 @@
         <section class="wrap-banner">
             <div class="container">
                 <div class="row">
-                    <div class="col-xl-7 col-lg-7 col-sm-12">
+                    <div class="col-xl-7 col-lg-7 col-sm-12 wrap-banner__main">
                         <div class="wrap-banner__logo">
                             <img class="wrap-banner__logo-png" src="/images/logo.png" alt="">
                         </div>
@@ -104,6 +104,8 @@
         </section>
         <section class="tabs">
             <div class="container">
+                <div class="row">
+                    <div class="col-lg-16">
                 <div class="wrapper__tabs-titles">
                     <div class="tabs-titles__item">
                         TAB 1
@@ -132,6 +134,8 @@
                     </div>
                 </div>
             </div>
+                </div>
+            </div>
         </section>
         <section class="abillity">
             <div class="container">
@@ -143,7 +147,7 @@
                         <div class="abillity__icon">
                             <img src="/images/Vector8.svg" alt="">
                         </div>
-                        <h4 class="title3 abillity__title">Thoughtful Design</h4>
+                        <h4 class="title3 abillity__card-title">Thoughtful Design</h4>
                         <p class="abillity__text">Lorem ipsum dolor sit amet, consectetur adipiscing
                             elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et
                             viverra.</p>
@@ -152,7 +156,7 @@
                         <div class="abillity__icon">
                             <img src="/images/Vector7.svg" alt="">
                         </div>
-                        <h4 class="title3 abillity__title">Thoughtful Design</h4>
+                        <h4 class="title3 abillity__card-title">Thoughtful Design</h4>
                         <p class="abillity__text">Lorem ipsum dolor sit amet, consectetur adipiscing
                             elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et
                             viverra.</p>
@@ -161,7 +165,7 @@
                         <div class="abillity__icon">
                             <img src="/images/Vector9.svg" alt="">
                         </div>
-                        <h4 class="title3 abillity__title">Thoughtful Design</h4>
+                        <h4 class="title3 abillity__card-title">Thoughtful Design</h4>
                         <p class="abillity__text">Lorem ipsum dolor sit amet, consectetur adipiscing
                             elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et
                             viverra.</p>
@@ -312,7 +316,7 @@
                 <form>
                     <div class="row">
 
-                        <div class="col-xl-6">
+                        <div class="col-xl-6 col-md-6">
                             <div class="card-form__row">
                                 <input name="form-name" id="label-title" class="card-form__input" type="text" required>
                                 <label for="label-title">Name</label>
@@ -328,9 +332,9 @@
                             </div>
                         </div>
 
-                        <div class="col-xl-6 ">
+                        <div class="col-xl-6 col-md-6">
                             <div class="contact__textarea">
-                                <textarea name="message-form" cols="40" placeholder="Message"></textarea>
+                                <textarea name="message-form" cols="60" placeholder="Message"></textarea>
                             </div>
                         </div>
 
