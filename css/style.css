@@ -2,7 +2,6 @@ a,abbr,acronym,address,applet,article,aside,audio,b,blockquote,big,body,center,c
 
 article,aside,audio,canvas,command,datalist,details,embed,figcaption,figure,footer,header,hgroup,keygen,meter,nav,output,progress,section,source,video, main{display:block}mark,rp,rt,ruby,summary,time{display:inline}
 
-
 :root {
   --main__color-black: #ffffff;
 }
@@ -24,7 +23,6 @@ input:focus,
 textarea:focus {
   border-color: #000
 }
-
 
 h1,
 .title1 {
@@ -65,7 +63,6 @@ h5,
   font-weight: 400;
 }
 
-
 h6,
 .title6 {
   font-family: 'open sans';
@@ -73,7 +70,6 @@ h6,
   line-height: 17px;
   font-weight: 700;
 }
-
 
 .button--trasparent {
   display: inline-block;
@@ -156,7 +152,6 @@ nav {
   margin-left: -40px;
 }
 
-
 .header__menu {
   display: flex;
   font-size: 14px;
@@ -195,9 +190,6 @@ nav {
   color: white;
 }
 
-.wrap-banner__main {
-  max-width: 700px;
-}
 .wrap-banner__logo-png {
   margin: 0 0 72px 0;
 }
@@ -244,9 +236,6 @@ span {
 
 .card-form__row {
   width: 100%;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
   position: relative;
 }
 
@@ -456,7 +445,7 @@ label {
 }
 
 .coments__card {
-margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .coments__comment {
@@ -520,21 +509,10 @@ margin-bottom: 20px;
   background-color: var(--main__color-black);
   padding: 50px 0;
   text-align: center;
-  display: flex;
-  justify-content: center;
 }
 
 .contact__subtitle {
   margin-bottom: 90px;
-}
-
-.contact__wrap-inputs {
-  display: flex;
-}
-
-.contact__inputs {
-  display: flex;
-  flex-direction: column;
 }
 
 .contact__inputs input {

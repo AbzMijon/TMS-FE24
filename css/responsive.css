@@ -45,10 +45,10 @@ h6,
     font-weight: 700;
 }
 
-
 .title2 , .divider , .title1 {
     margin-bottom: 30px;
 }
+
 .divider {
     width:115px;
 }
@@ -56,31 +56,39 @@ h6,
 .header__logo img {
     margin: 0;
 }
+
 .wrap-banner {
     padding-top: 137px;
     padding-bottom: 105px;
 }
+
 .wrap-banner__logo-png {
     margin: 0 0 55px 0;
 }
+
 .button--trasparent{
     max-width: 185px;
     max-height: 50px;
 }
+
 .wrap-banner__main {
     max-width: 470px;
     margin-left: 113px;
 }
+
 .social {
     padding: 15px 0;
 }
+
 .social__inf {
     margin-right: 40px;
 }
+
 .social__item {
     width: 64px;
     height: 64px;
 }
+
 .social__item + .social__item {
     margin-left: 33px;
 }
@@ -88,16 +96,20 @@ h6,
 .tabs {
     padding: 60px 0 50px 0;
 }
+
 .tabs-titles__item {
     min-width: 170px;
 }
+
 .wrapper-tabs__content {
     padding: 50px 25px 50px 85px;
 }
+
 .wrapper-tabs__img img {
     width: 400px;
     height: 385px;
 }
+
 .wrap-banner__button {
     width: 230px;
     height: 58px;
@@ -106,16 +118,20 @@ h6,
 .abillity__subtitle {
     margin-bottom: 85px;
 }
+
 .abillity__icon {
     margin-bottom: 45px;
 }
+
 .abillity__card-title {
     margin-bottom: 15px;
 }
+
 .card__subtitle {
     padding: 10px;
     background-color: #333333;
 }
+
 .card__item {
     padding: 10px 0;
 }
@@ -123,15 +139,19 @@ h6,
 .coments {
     padding: 50px 0 60px 0;
 }
+
 .coments__subtitle {
     margin-bottom: 30px;
 }
+
 .coments__comment {
     padding: 50px;
 }
+
 .coments__avatar {
     margin-right: 20px;
 }
+
 .coments__name {
     margin-bottom: 10px;
 }
@@ -143,6 +163,7 @@ h6,
 .contact__subtitle {
     margin-bottom: 70px;
 }
+
 .contact__inputs input {
     width: 485px;
 }
@@ -151,18 +172,23 @@ h6,
     width: 45px;
     height: 45px;
 }
+
 .foot__item {
     margin-right: 40px;
 }
+
 .foot__row {
     margin-bottom: 40px;
 }
+
 .contact__button {
     width: 320px;
 }
+
 }
 
 @media only screen and (max-width:570px) {
+    
     h3,
 .title3 {
     font-family: 'open sans';
@@ -170,6 +196,7 @@ h6,
     line-height: 24px;
     font-weight: 700;
 }
+
     h4,
 .title4 {
     font-family: 'open sans';
@@ -177,66 +204,140 @@ h6,
     line-height: 19px;
     font-weight: 700;
 }
+
 h5,
 .title5 {
     font-size: 14px;
     line-height: 16px;
     font-weight: 400;
 }
+
 .title2 , .divider , .title1 {
     margin: 0 auto 25px;
 }
+
 .divider {
     width: 135px;
 }
+
 .title1 , .wrap-banner__divider , .wrap-banner__text {
     margin-bottom: 40px;
 }
+
+.burger--smart {
+    top: 30px;
+    width: 20px;
+    height: 3px;
+    background-color: white;
+    position: relative;
+}
+
+.burger--smart::before {
+    content: '';
+    position: absolute;
+    top: 7px;
+    width: 20px;
+    height: 3px;
+    background-color: white;
+}
+
+.burger--smart::after {
+    content: '';
+    position: absolute;
+    top: 14px;
+    width: 20px;
+    height: 3px;
+    background-color: white;
+}
+
+.header__menu {
+    display: block;
+    position: absolute;
+    left: -200px;
+    top: -380px;
+}
+
+.header__menu:focus {
+    top: 0;
+}
+
 .wrap-banner__button {
     margin-bottom: 55px;
 }
+
 .wrap-banner {
     justify-content: center;
     text-align: center;
 }
+
 .button--trasparent {
     min-width: 290px;
     min-height: 50px;
 }
+
 .wrap-banner__main {
     margin: 0 auto;
 }
+
 .wrap-banner__logo-png {
     display: none;
 }
+
 .social {
     text-align: center;
 }
+
 .social__item img {
     width: 25px;
     height: 25px;
 }
+
 .social__item + .social__item {
     margin-left: 20px;
 }
+
 .social__inf {
     margin-bottom: 35px;
 }
+
 .tabs {
     padding: 80px 0 50px 0;
     background-color: var(--main__color-black);
 }
+
 .wrapper-tabs__content {
     text-align: center;
     padding: 30px 20px 30px 25px;  
 }
+
 .wrapper-tabs__img {
     display: none;
 }
+
 .tabs-titles__item {
     min-width: 100px;
 }
+
 .pricing__card-selected {
     transform: none;
+    margin-top: 25px;
 }
+
+.banner2__text {
+    margin-bottom: 65px;
+}
+
+.contact__button{
+    width: 290px;
+}
+
+.foot__item img {
+    width: 20px;
+    height: 20px;
+}
+
+.foot__item {
+    margin-right: 25px;
+}
+
 }
