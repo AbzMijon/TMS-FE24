@@ -84,7 +84,7 @@ h6,
     margin-right: 40px;
 }
 
-.social__item {
+.social__item img {
     width: 64px;
     height: 64px;
 }
@@ -180,7 +180,10 @@ h6,
 .foot__row {
     margin-bottom: 40px;
 }
-
+.foot__item img {
+    width: 64px;
+    height: 64px;
+}
 .contact__button {
     width: 320px;
 }
