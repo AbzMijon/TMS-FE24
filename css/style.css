@@ -296,6 +296,7 @@ label {
 
 .social__list {
   display: flex;
+  justify-content: center;
 }
 
 .social__item + .social__item {
