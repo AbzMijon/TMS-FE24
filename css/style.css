@@ -73,8 +73,8 @@ h6,
 
 .button--trasparent {
   display: inline-block;
-  width: 270px;
-  height: 58px;
+  min-width: 270px;
+  min-height: 58px;
   outline: none;
   background-color: transparent;
   font-size: 18px;
@@ -287,7 +287,7 @@ label {
 }
 
 .social__inf {
-  margin-right: 50px;
+  margin-right: 60px;
 }
 
 .social__title {
@@ -536,7 +536,6 @@ textarea {
   border: none;
   border-bottom: 1px solid #86878B;
   padding: 0 0 175px 0;
-  height: 100%;
   width: 100%;
 }
 
