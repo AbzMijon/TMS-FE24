@@ -29,13 +29,13 @@ span {
   margin: 0 auto;
 }
 .container--mini {
-  max-width: 1000px;
+  max-width: 1220px;
   margin: 0 auto;
 }
 body {
   padding: 220px 0px;
   margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   font-weight: 300;
   font-size: 25px;
   color: #000;
@@ -91,6 +91,7 @@ body {
     padding: 10px 20px;
 }
 .sticky-search__title {
+  font-family: Arial, Helvetica, sans-serif;
     text-transform: uppercase;
     font-weight: 900;
     font-size: 28px;
@@ -106,12 +107,14 @@ body {
   display: inline-block;
   padding: 3px 15px;
   font-size: 15px;
-  background-color: #d93baa;
   border-radius: 5px;
+  background-color: #d93baa;
+  text-shadow: 0 0 #982175, 1px 1px #982175, 2px 2px #982175, 3px 3px #982175, 4px 4px #982175, 5px 5px #982175, 6px 6px #982175, 7px 7px #982175, 8px 8px #982175, 9px 9px #982175, 10px 10px #982175, 11px 11px #982175, 12px 12px #982175, 13px 13px #982175, 14px 14px #982175, 15px 15px #982175, 16px 16px #982175, 17px 17px #982175, 18px 18px #982175, 19px 19px #982175, 20px 20px #982175, 21px 21px #982175, 22px 22px #982175, 23px 23px #982175, 24px 24px #982175, 25px 25px #982175, 26px 26px #982175, 27px 27px #982175, 28px 28px #982175, 29px 29px #982175, 30px 30px #982175, 31px 31px #982175, 32px 32px #982175, 33px 33px #982175, 34px 34px #982175, 35px 35px #982175, 36px 36px #982175, 37px 37px #982175, 38px 38px #982175, 39px 39px #982175, 40px 40px #982175;
+  overflow: hidden;
 }
 .sticky-search__input {
     outline: none;
-    font-size: 20px;
+    font-size: 17px;
     border: none;
     width: 70%;
     padding: 0 60px 0 20px;
@@ -121,6 +124,9 @@ body {
     border-radius: 4px;
     height: 40px;
     line-height: 40px;
+}
+::placeholder {
+  color: #969696c4;
 }
 .sticky-search__moon {
   width: 57px; 
@@ -144,5 +150,108 @@ body {
 }
 
 .popular {
+  color: #fff;
   background-color: #1c222b;
+  padding: 20px 0;
+}
+.popular__box {
+  display: flex;
+}
+.popular__title {
+  font-weight: normal;
+  margin-right: 20px;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.popular__paraghaph {
+  font-size: 15px;
+  height: 30px;
+  line-height: 30px;
+  cursor: pointer;
+  border-radius: 3px;
+  padding: 0 15px;
+  margin-right: 5px;
+  background: #252d3a;
+}
+.row__popular {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+.popular__card {
+  position: relative;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  box-shadow: inset 0 -65px 75px #1c222b;
+  padding: 5px;
+  display: flex;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  height: 230px;
+  width: 160px;
+  font-size: 15px;
+  font-weight: 600;
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+}
+.card__name {
+  position: absolute;
+  bottom: 10px;
+}
+.popular__card1 {
+  background: url(https://jut-su.net/image200x296/uploads/posts/2020-09/1599125259_poster.jpg) no-repeat;
+}
+.popular__card2 {
+  background: url(https://jut-su.net/image148x207/uploads/posts/2020-12/1607354658_poster.jpg) no-repeat;
+}
+.popular__card3 {
+  background: url(https://jut-su.net/image148x207/uploads/posts/2021-10/1633872597_poster.jpg) no-repeat;
+}
+.popular__card4 {
+  background: url(https://jut-su.net/image148x207/uploads/posts/2020-09/1599125042_poster.jpg) no-repeat;
+}
+.popular__card5 {
+  background: url(https://jut-su.net/image148x207/uploads/posts/2020-11/1605291651_poster.jpg) no-repeat;
+}
+.popular__card6 {
+  background: url(https://jut-su.net/image148x207/uploads/posts/2020-09/1598977489_poster.jpg) no-repeat;
+}
+.popular__card7 {
+  background: url(https://jut-su.net/image148x207/uploads/posts/2020-12/1609261978_poster.jpg) no-repeat;
+}
+.tops {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 17px;
+  padding: 15px 40px;
+  box-shadow: 0 20px 20px #0000002c;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.list {
+  display: flex;
+}
+.list li {
+  font-weight: 600;
+  margin-right: 20px;
+}
+.tops__box-of-btn {
+  display: flex;
+}
+.tops__box-of-btn button {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  line-height: 32px;
+  font-size: 10px;
+  border-radius: 2px;
+  color: #fff;
+  background-color: #d93baa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 5px;
+  border: none;
+  outline: none;
+  cursor: pointer;
 }
