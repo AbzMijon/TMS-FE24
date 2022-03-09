@@ -310,6 +310,7 @@ label {
 
 .wrapper-tabs {
   display: flex;
+  justify-content: space-between;
   border: 1px solid #C6CBCD;
 }
 
@@ -528,18 +529,18 @@ label {
 }
 
 .contact__textarea {
-  margin: 50px 0;
   text-align: left;
 }
 
 textarea {
   border: none;
-  border-bottom: 1px solid #86878B;
+  border-bottom: 1px solid #BDBDBD;
   padding: 0 0 175px 0;
   width: 100%;
 }
 
 .contact__button {
+  margin-top: 50px;
   width: 370px;
   height: 60px;
   border-radius: 0%;
