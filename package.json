@@ -1,0 +1,24 @@
+{
+  "name": "tms-fe24",
+  "version": "1.0.0",
+  "description": "test",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AbzMijon/TMS-FE24.git"
+  },
+  "keywords": [
+    "test",
+    "npm",
+    "nodeJS"
+  ],
+  "author": "abz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AbzMijon/TMS-FE24/issues"
+  },
+  "homepage": "https://github.com/AbzMijon/TMS-FE24#readme"
+}

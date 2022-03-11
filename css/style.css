@@ -235,7 +235,6 @@ span {
 }
 
 .card-form__row {
-  width: 100%;
   position: relative;
 }
 
@@ -297,6 +296,11 @@ label {
 .social__list {
   display: flex;
   justify-content: center;
+}
+
+.social__item , .foot__item {
+  font-size: 50px;
+  color: #CCCCCC;
 }
 
 .social__item + .social__item {
@@ -515,17 +519,6 @@ label {
 
 .contact__subtitle {
   margin-bottom: 90px;
-}
-
-.contact__inputs input {
-  width: 571px;
-  border: none;
-  color: #000000;
-  outline: none;
-  border-bottom: 1px solid #86878B;
-  padding: 15px;
-  margin-bottom: 50px;
-  margin-right: 30px;
 }
 
 .contact__textarea {
