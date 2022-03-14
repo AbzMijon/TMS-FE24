@@ -2,9 +2,10 @@
   "name": "tms-fe24",
   "version": "1.0.0",
   "description": "test",
-  "main": "script.js",
+  "source": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "parcel",
+    "build": "parcel build"
   },
   "repository": {
     "type": "git",
@@ -20,5 +21,12 @@
   "bugs": {
     "url": "https://github.com/AbzMijon/TMS-FE24/issues"
   },
-  "homepage": "https://github.com/AbzMijon/TMS-FE24#readme"
+  "homepage": "https://github.com/AbzMijon/TMS-FE24#readme",
+  "dependencies": {
+    "parcel": "^2.3.2",
+    "sass": "^1.49.9"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.3.2"
+  }
 }
