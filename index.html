@@ -4,82 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>ActiveBox</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/dd7934b5d3.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="../Из интернета/bootstrap-5.1.3-dist/bootstrap-5.1.3-dist/css/bootstrap-grid.min.css">
-    <link rel="stylesheet" href="/css/style.css">
-    <link rel="stylesheet" href="/css/resp.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="./script.js"></script>
+    <link
+  rel="stylesheet"
+  href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+/>
+
+<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
 </head>
 
 <body>
-    <div class="container--big">
-    <div class="body-wrap">
-        <header class="header">
-                <div class="header__box">
-                    <span class="fa fa-cog"></span> <input class="btn header__btn1" type="button" value="Регистрация">
-                    <span class="fa fa-lock"></span><input class="btn header__btn2" type="button" value="Войти">
-                </div>
-        </header>
-        <main>
-            <section class="sticky-search">
-                    <h2 class="sticky-search__title">jut-su <div class="net"> .net </div></h2>
-                    <input type="search" class="sticky-search__input" placeholder="Поиск на Jut-su..."> <i class="fa fa-search"></i>
-                    <i class="fa fa-search"></i>
-                    <div class="sticky-search__moon" title="Темное оформление"></div>
-            </section>
-            <section class="popular">
-                <div class="container--mini">
-                    <div class="popular__box">
-                        <h3 class="popular__title">Самое популярное:</h3>
-                        <div class="popular__paraghaph">Сейчас смотрят</div>
-                        <div class="popular__paraghaph">Моя подборка</div>
-                    </div>
-                    <div class="row__popular">
-                        <div class="popular__card popular__card1">
-                            <div class="card__name">Клинок, рассекающий демонов</div>
-                        </div>
-                        <div class="popular__card popular__card2">
-                            <div class="card__name">Маг-целитель: Новый старт</div>
-                        </div>
-                        <div class="popular__card popular__card3">
-                            <div class="card__name">Клинок, рассекающий демонов: Квартал красных фонарей</div>
-                        </div>
-                        <div class="popular__card popular__card4">
-                            <div class="card__name">Старшая школа DxD</div>
-                        </div>
-                        <div class="popular__card popular__card5">
-                            <div class="card__name">Повседневная жизнь бессмертного короля</div>
-                        </div>
-                        <div class="popular__card popular__card6">
-                            <div class="card__name">Клинок, рассекающий демонов: Бесконечный поезд</div>
-                        </div>
-                        <div class="popular__card popular__card7">
-                            <div class="card__name">Реинкарнация безработного: История о приключениях в другом мире</div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section class="tops">
-                <ul class="list">
-                    <li>Фильм</li>
-                    <li>TV Сериал</li>
-                    <li>OVA</li>
-                    <li>ONA</li>
-                    <li>Топ 100</li>
-                    <li>Онгоинги</li>
-                    <li>Анонсы</li>
-                    <li>Рандом</li>
-                </ul>
-                <div class="tops__box-of-btn">
-                    <button><span class="fa-solid fa-angle-left"></span></button>
-                    <button><span class="fa-solid fa-angle-right"></span></button>
-                </div>
-            </section>
-        </main>
+  <!-- Swiper -->
+  <div class="swiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+          <div class="img"><img src="https://bipbap.ru/wp-content/uploads/2017/04/priroda_kartinki_foto_03.jpg" alt=""></div>
+          
+      </div>
+      <div class="swiper-slide">
+          <div class="img"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMhEiDcqhbHJz841jMLD2Lq_QgoRRwUXStfGgSVScUoGMNQi5IEGuW9omRXDxdY3z6QJg&usqp=CAU" alt=""></div>
+          
+      </div>
+      <div class="swiper-slide"> <div class="img"><img src="https://bipbap.ru/wp-content/uploads/2017/04/priroda_kartinki_foto_03.jpg" alt=""></div></div>
+      <div class="swiper-slide">Slide 4</div>
+      <div class="swiper-slide">Slide 5</div>
+      <div class="swiper-slide">Slide 6</div>
+      <div class="swiper-slide">Slide 7</div>
+      <div class="swiper-slide">Slide 8</div>
+      <div class="swiper-slide">Slide 9</div>
+      <div class="swiper-slide">Slide 10</div>
     </div>
-    </div>
+    <!-- Add Pagination -->
+    <div class="swiper-pagination"></div>
+  </div>
+
 </body>
 
 </html>
