@@ -538,15 +538,35 @@ span {
   margin-bottom: 90px;
 }
 
-.contact__textarea {
-  text-align: left;
+.card-form__row-tx {
+  position: relative;
 }
 
-textarea {
+.card-form__row-tx textarea {
+  position: relative;
   border: none;
   border-bottom: 1px solid #BDBDBD;
-  padding: 0 0 175px 0;
+  padding: 0px 0 175px 15px;
   width: 100%;
+  text-align: left;
+}
+.card-form__row-tx label {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  padding: 0 15px;
+  font-size: 15px;
+  transition: all 0.3s;
+  color: #BDBDBD;
+}
+.card-form__row-tx textarea::placeholder {
+  color: transparent;
+}
+
+.card-form__row-tx textarea:not(:placeholder-shown) + label {
+  top: -15px;
+  font-size: 10px;
+  padding: 0 15px;
 }
 
 .contact__button {
