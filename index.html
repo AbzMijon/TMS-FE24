@@ -14,7 +14,10 @@
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/responsive.css">
     <link rel="stylesheet" href="./SASS/style.scss">
-    <!-- Libraries: GoogleFonts , FontAwesome , Bootstrap -->
+    <script src="./script.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <!-- Libraries: GoogleFonts , FontAwesome , Bootstrap , SwiperJS -->
 </head>
 
 <body>
@@ -255,9 +258,9 @@
                 <h2 class="title2 comments__title">what our customers are saying</h2>
                 <hr class="divider coments__divider">
                 <p class="subtitle coments__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                <div class="row">
-                    <div class="col-lg-4 col-md-4 col-sm-12">
-                        <div class="coments__card">
+                <div class="row swiper">
+                    <div class="col-lg-4 col-md-4 col-sm-12 swiper-wrapper">
+                        <div class="coments__card swiper-slide">
                             <div class="coments__comment">Lorem ipsum dolor sit amet,
                                 consectetur adipisicing elit. Doloribus
                                 accusamus expedita repellat similique
@@ -275,7 +278,7 @@
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-12">
-                        <div class="coments__card">
+                        <div class="coments__card swiper-slide">
                             <div class="coments__comment">Lorem ipsum dolor sit amet,
                                 consectetur adipisicing elit. Doloribus
                                 accusamus expedita repellat similique
@@ -293,7 +296,7 @@
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-12">
-                        <div class="coments__card">
+                        <div class="coments__card swiper-slide">
                             <div class="coments__comment">Lorem ipsum dolor sit amet,
                                 consectetur adipisicing elit. Doloribus
                                 accusamus expedita repellat similique
@@ -371,7 +374,6 @@
                 <li class="foot__item"><i class="fa-solid fa-rss"></i></li>
             </ul>
             <p class="foot__text">© 2015 Axure Themes</p>
-            <p class="forscss">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum possimus in eius animi adipisci natus tempora soluta consectetur accusantium aliquid atque sapiente molestias architecto ut fuga ea, doloremque laboriosam optio distinctio dolore inventore? Ex, dolore exercitationem qui veniam possimus fugiat aut laudantium soluta pariatur rerum est praesentium aspernatur inventore unde?</p>
         </div>
     </footer>
 </body>
