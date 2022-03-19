@@ -1,13 +1,14 @@
 
             @media only screen and (max-width: 1399px) {
 
-
 .tabs-titles__item {
     min-width: 168px;
     }
 }    
-    
 
+.row--swiper {
+    display: none;
+}
 
             @media only screen and (max-width:1199px){
     body {
@@ -243,6 +244,9 @@ h6,
     font-size: 35px;
 }
 
+.row--swiper {
+    display: none;
+}
 
             } 
 
@@ -300,6 +304,10 @@ h6,
                 }
 .coments__comment {
     padding: 30px;
+}
+
+.row--swiper {
+    display: none;
 }
 
     }
@@ -455,6 +463,13 @@ h5,
 
 .foot__item {
     margin-right: 25px;
+}
+
+.row--defolt {
+    display: none;
+}
+.row--swiper {
+    display: block;
 }
 
 }

@@ -152,8 +152,9 @@ nav {
   justify-content: space-between;
 }
 
-.header__logo img {
+.header__logo  {
   margin-left: -40px;
+  z-index: 2;
 }
 
 .header__menu {
@@ -161,6 +162,7 @@ nav {
   font-size: 14px;
   font-weight: 700;
   line-height: 19px;
+  z-index: 1;
 }
 
 .header__item {
@@ -186,6 +188,46 @@ nav {
   text-decoration: none;
   color: white;
 }
+
+.burger {
+  width: 30px;
+  height: 40px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  position: relative;
+  top: 15px;
+  right: 20px;
+  cursor: pointer;
+  z-index: 2;
+  display: none;
+}
+
+.burger__line {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background-color: #fff;
+}
+
+.burger__line::before , 
+.burger__line::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  background-color: #fff;
+  height: 3px;
+  width: 100%;
+}
+.burger__line::before {
+  top: 8px;
+}
+.burger__line::after {
+  bottom: 8px;
+}
+
 
 /*Main*/
 

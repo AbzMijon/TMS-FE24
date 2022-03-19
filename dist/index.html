@@ -14,9 +14,7 @@
     <link rel="stylesheet" href="/index.b2625c6b.css">
     <link rel="stylesheet" href="/index.f4c3a2cb.css">
     <link rel="stylesheet" href="/index.39df4f4c.css">
-    <script src="/index.672d4772.js"></script>
     <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css">
-    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
     <!-- Libraries: GoogleFonts , FontAwesome , Bootstrap , SwiperJS -->
 </head>
 
@@ -255,9 +253,10 @@
                 <h2 class="title2 comments__title">what our customers are saying</h2>
                 <hr class="divider coments__divider">
                 <p class="subtitle coments__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                <div class="row swiper">
-                    <div class="col-lg-4 col-md-4 col-sm-12 swiper-wrapper">
-                        <div class="coments__card swiper-slide">
+                <div class="row row--defolt">               
+                                
+                                <div class="col-lg-4 col-md-4 col-sm-12">
+                        <div class="coments__card">
                             <div class="coments__comment">Lorem ipsum dolor sit amet,
                                 consectetur adipisicing elit. Doloribus
                                 accusamus expedita repellat similique
@@ -274,8 +273,10 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-4 col-sm-12">
-                        <div class="coments__card swiper-slide">
+
+                                
+                                <div class="col-lg-4 col-md-4 col-sm-12">
+                        <div class="coments__card">
                             <div class="coments__comment">Lorem ipsum dolor sit amet,
                                 consectetur adipisicing elit. Doloribus
                                 accusamus expedita repellat similique
@@ -292,8 +293,81 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-4 col-sm-12">
-                        <div class="coments__card swiper-slide">
+                
+
+                                
+                                <div class="col-lg-4 col-md-4 col-sm-12">
+                        <div class="coments__card">
+                            <div class="coments__comment">Lorem ipsum dolor sit amet,
+                                consectetur adipisicing elit. Doloribus
+                                accusamus expedita repellat similique
+                                odio aspernatur ex, architecto eaque
+                                quo suscipit.
+                                <div class="coments__triangle"></div>
+                            </div>
+                            <div class="coments__info">
+                                <img class="coments__avatar" src="/Ellipse72.b842e9a9.png" alt="">
+                                <div class="coments__wrap-inf">
+                                    <h4 class="coments__name">Cooper Dorwart</h4>
+                                    <p class="comments__subtitle">Manager</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                
+                        </div>
+                </div>
+                <div class="row row--swiper">
+                    <div class="swiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="container">
+                                <div class="col-lg-4 col-md-4 col-sm-12">
+                        <div class="coments__card">
+                            <div class="coments__comment">Lorem ipsum dolor sit amet,
+                                consectetur adipisicing elit. Doloribus
+                                accusamus expedita repellat similique
+                                odio aspernatur ex, architecto eaque
+                                quo suscipit.
+                                <div class="coments__triangle"></div>
+                            </div>
+                            <div class="coments__info">
+                                <img class="coments__avatar" src="/Ellipse7.ce352331.png" alt="">
+                                <div class="coments__wrap-inf">
+                                    <h4 class="coments__name">Davis Rhiel Madsen</h4>
+                                    <p class="comments__subtitle">Manager</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+                            <div class="swiper-slide">
+                                <div class="container">
+                                <div class="col-lg-4 col-md-4 col-sm-12">
+                        <div class="coments__card">
+                            <div class="coments__comment">Lorem ipsum dolor sit amet,
+                                consectetur adipisicing elit. Doloribus
+                                accusamus expedita repellat similique
+                                odio aspernatur ex, architecto eaque
+                                quo suscipit.
+                                <div class="coments__triangle"></div>
+                            </div>
+                            <div class="coments__info">
+                                <img class="coments__avatar" src="/Ellipse71.c0b510e2.png" alt="">
+                                <div class="coments__wrap-inf">
+                                    <h4 class="coments__name">Jaydon Rosser</h4>
+                                    <p class="comments__subtitle">Manager</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+                            <div class="swiper-slide">
+                                <div class="container">
+                                <div class="col-lg-4 col-md-4 col-sm-12">
+                        <div class="coments__card">
                             <div class="coments__comment">Lorem ipsum dolor sit amet,
                                 consectetur adipisicing elit. Doloribus
                                 accusamus expedita repellat similique
@@ -311,7 +385,15 @@
                         </div>
                     </div>
                 </div>
-            </div>
+                </div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                    
+                    
+                    
+                </div>
+            
         </section>
 
         <section class="banner2">
@@ -330,24 +412,26 @@
                 <hr class="divider contact__divider">
                 <p class="subtitle contact__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 <form>
-                    <div class="row">
+                    <div class="row align-content-center">
                         <div class="col-lg-6 col-md-6 col-sm-12">
                             <div class="card-form__row">
-                                <input name="form-name" id="label-title" class="card-form__input" type="text" required="">
+                                <input name="form-name" id="label-title" class="card-form__input" type="text" required="" placeholder="Name">
                                 <label for="label-title">Name</label>
                             </div>
                             <div class="card-form__row">
-                                <input name="form-email" id="label-title" class="card-form__input" type="text" required="">
+                                <input name="form-email" id="label-title" class="card-form__input" type="text" required="" placeholder="Email">
                                 <label for="label-title">Email</label>
                             </div>
                             <div class="card-form__row">
-                                <input name="form-pass" id="label-title" class="card-form__input" type="password" required="">
+                                <input name="form-pass" id="label-title" class="card-form__input" type="password" required="" placeholder="Password">
                                 <label for="label-title">Password</label>
                             </div>
                         </div>
                         <div class="col-xl-6 col-md-6 col-sm-12">
-                            <div class="contact__textarea">
-                                <textarea name="message-form" placeholder="Message"></textarea>
+                            <div class="card-form__row-tx">
+                                    <textarea name="form-name" id="label-title" placeholder="Message"></textarea>
+                                <label for="label-title">Message</label>
+                                
                             </div>
                         </div>
                     </div>
@@ -372,6 +456,11 @@
             <p class="foot__text">© 2015 Axure Themes</p>
         </div>
     </footer>
+
+
+    <!-- scripts -->
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="/index.672d4772.js"></script>
 </body>
 
 </html>
