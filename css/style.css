@@ -188,26 +188,17 @@ nav {
   text-decoration: none;
   color: white;
 }
-
+/*
 .burger {
-  width: 30px;
-  height: 40px;
-  border: none;
-  outline: none;
-  background-color: transparent;
-  position: relative;
-  top: 15px;
-  right: 20px;
-  cursor: pointer;
-  z-index: 2;
-  display: none;
-}
+  opacity: 0;
+}*/
 
 .burger__line {
+  display: none;
   position: absolute;
   top: 50%;
-  left: 0;
-  width: 100%;
+  right: 10px;
+  width: 30px;
   height: 3px;
   background-color: #fff;
 }
@@ -219,7 +210,7 @@ nav {
   left: 0;
   background-color: #fff;
   height: 3px;
-  width: 100%;
+  width: 30px;
 }
 .burger__line::before {
   top: 8px;

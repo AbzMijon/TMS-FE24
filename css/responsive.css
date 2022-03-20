@@ -254,11 +254,6 @@ h6,
 
             @media only screen and (max-width: 767px) { 
 
-.header__menu {
-    margin-top: 50px;
-    left: 1000px;
-}
-
 .header__logo {
     margin: 0;
 }
@@ -281,24 +276,29 @@ h6,
     display: none;
 }
 
-.burger {
+.burger__line {
     display: block;
 }
-
-
 .header__menu {
-    position: fixed;
-    top: 0;
-    z-index: 1;
-    background-color: #000;
-    width: 100%;
-    display: block;
+    display: none;
 }
-    }
+/*.header__menu {
+    visibility: hidden;
+    left: -100%;
+}
 
+#burger:checked > .header__menu {
+    visibility: visible;
+    left: 0;
+}
+*/
 
+.card-form__row-tx {
+    margin-top: 40px;
+}
+}
 
-            @media only screen and (max-width:575px) {
+        @media only screen and (max-width:575px) {
     
     h3,
 .title3 {
@@ -333,11 +333,6 @@ h5,
 
 .title1 , .wrap-banner__divider , .wrap-banner__text {
     margin-bottom: 40px;
-}
-
-
-.header__menu {
-    display: block;
 }
 
 .wrap-banner__button {
@@ -422,6 +417,10 @@ h5,
 }
 .row--swiper {
     display: block;
+}
+
+.card-form__row-tx {
+    margin-top: 40px;
 }
 
 }
