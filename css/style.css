@@ -131,6 +131,10 @@ h6,
   color: #86878B;
 }
 
+a {
+  color: #CCCCCC;
+}
+
 .divider {
   margin: 0 auto;
   width: 170px;
