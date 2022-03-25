@@ -267,7 +267,10 @@ h6,
 .pricing__card-selected {
     transform: translateY(0px);
     margin-top: 20px;
-                }
+}
+.pricing__subtitle {
+    margin-bottom: 30px;
+}
 .coments__comment {
     padding: 30px;
 }
@@ -396,7 +399,9 @@ h5,
     transform: none;
     margin-top: 25px;
 }
-
+.pricing__subtitle {
+    margin-bottom: 25px;
+}
 .banner2__text {
     margin-bottom: 65px;
 }

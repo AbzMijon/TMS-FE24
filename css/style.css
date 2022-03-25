@@ -231,7 +231,7 @@ nav {
 
 /*Section - wrap-banner*/
 .wrap-banner {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/images/image.png) no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/images/image.png) no-repeat center;
   background-size: cover;
   padding: 210px 0 185px 0;
   color: white;
@@ -456,7 +456,7 @@ span {
 .pricing__subtitle {
   margin-bottom: 80px;
 }
-.pricing__card {
+.pricing__card + .pricing__card {
   margin-top: 30px;
 }
 .pricing__card-selected {
