@@ -288,7 +288,19 @@ h6,
 .header__menu {
     display: none;
 }
-
+.contact__grid {
+    display: grid;
+    grid-template-columns:repeat(1 , 1fr );
+}
+.contact__box {
+    grid-column: 1 / 2;
+}
+.card-form__row-tx textarea {
+    grid-column: 1 / 2;
+}
+.contact__button {
+    grid-column: 1 / 2;
+}
 .card-form__row-tx {
     margin-top: 40px;
 }

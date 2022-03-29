@@ -581,8 +581,28 @@ span {
   text-align: center;
 }
 
+.contact__grid {
+  display: grid;
+  grid-template-columns:repeat( 2 , 1fr );
+  grid-template-rows: auto;
+  column-gap: 30px;
+  align-items: center;
+}
+
+.contact__box {
+  grid-column: 1 / 3;
+}
+
+.contact__login {
+  height: 100%;
+}
+
 .contact__subtitle {
   margin-bottom: 90px;
+}
+
+form {
+  display: contents;
 }
 
 .card-form__row-tx {
@@ -590,6 +610,7 @@ span {
 }
 
 .card-form__row-tx textarea {
+  grid-column: 2 / 3;
   position: relative;
   border: none;
   border-bottom: 1px solid #BDBDBD;
@@ -617,6 +638,8 @@ span {
 }
 
 .contact__button {
+  grid-column: 1 / 3;
+  justify-self: center;
   margin-top: 50px;
   width: 370px;
   height: 60px;
