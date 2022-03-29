@@ -231,7 +231,7 @@ nav {
 
 /*Section - wrap-banner*/
 .wrap-banner {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/images/image.png) no-repeat center;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/images/image.jpg) no-repeat center;
   background-size: cover;
   padding: 210px 0 185px 0;
   color: white;
@@ -416,6 +416,9 @@ span {
   margin-bottom: 30px;
 }
 
+.wrapper-tabs__img img {
+  width: 100%;
+}
 .wrapper-tabs__button {
   width: 270px;
   height: 58px;
@@ -550,7 +553,7 @@ span {
 
 /*Section - banner2*/
 .banner2 {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/images/image1.png);
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/images/image1.jpg);
   background-size: cover;
   color: white;
   text-align: center;
