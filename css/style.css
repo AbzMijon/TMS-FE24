@@ -548,7 +548,7 @@ span {
 
 /*Section - banner2*/
 .banner2 {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/images/image1.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/image1.jpg);
   background-size: cover;
   color: white;
   text-align: center;
