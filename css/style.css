@@ -20,6 +20,7 @@ body {
 input,
 textarea {
   background-color: inherit;
+  resize: none;
 }
 
 input:focus,
@@ -195,10 +196,6 @@ nav {
   text-decoration: none;
   color: white;
 }
-/*
-.burger {
-  opacity: 0;
-}*/
 
 .burger__line {
   display: none;
@@ -225,8 +222,6 @@ nav {
 .burger__line::after {
   bottom: 8px;
 }
-
-
 /*Main*/
 
 /*Section - wrap-banner*/
