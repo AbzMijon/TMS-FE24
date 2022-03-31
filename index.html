@@ -4,98 +4,270 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>ActiveBox</title>
-    <link
-    rel="stylesheet"
-    href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cardo:ital@1&family=Raleway:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/bootstrap-grid.css">
+    <link rel="stylesheet" href="/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="/SCSS/style.css">
+    <link rel="stylesheet" href="/responive.css">
 </head>
 <body>
 
-
     <header class="header">
-    <div class="header__box-name">
-        <h1 class="header__title">Добро пожаловать в <a href="#" class="header__title-link">Википедию</a> ,</h1>
-        <p class="header__subtitle"><a href="#" class="header__subtitle-link">свободную энциклопедию</a>, которую <a href="#" class="header__subtitle-link">может редактировать каждый.</a></p>
-    </div>
-    <div class="header__box-plainlist">
-        <p class="header__text">Сейчас в Википедии <a href="#" class="header__text-link">1 806 858 статей</a> на <a href="#" class="header__text-link"> русском языке.</a></p>
-        <div class="header__box-inputs">
-            <input type="button" class="header__btn" value="Портал">
-            <input type="button" class="header__btn" value="Справка">
-            <input type="button" class="header__btn" value="Создать статью">
-        </div>
-    </div>
+        <section class="header__row-first">
+            <div class="container">
+                <div class="header__wrap">
+                    <div class="header__logo">
+                        <img src="/images/logo.svg" alt="">
+                    </div>
+                    <nav class="header__nav">
+                        <ul class="header__menu">
+                            <li class="header__item"><a href="#">features</a></li>
+                            <li class="header__item"><a href="#">works</a></li>
+                            <li class="header__item"><a href="#">our team</a></li>
+                            <li class="header__item"><a href="#">testimonials</a></li>
+                            <li class="header__item"><a href="#">download</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </section>
+        <section class="header__row-second">
+            <div class="container">
+                <h1 class="header__title">Your Favorite One Page Multi Purpose Template</h1>
+                <div class="header__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent commodo cursus magna vel scelerisque nisl consectetur et.</div>
+                <input type="button" class="btn header__btn" value="find out more">
+            </div>
+        </section>
     </header>
-    <aside class="aside">
-        <h2 class="aside__title">Википедия</h2>
-        <div class="aside__body-list">
-            <ul class="aside__list">
-                <li class="aside__item"><a href="#" class="aside__link">Содежание</a></li>
-                <li class="aside__item"><a href="#" class="aside__link">Статьи</a></li>
-                <li class="aside__item"><a href="#" class="aside__link">Расстедования</a></li>
-                <li class="aside__item"><a href="#" class="aside__link">История</a></li>
-            </ul>
-            <ul class="aside__list">
-                <li class="aside__item"><a href="#" class="aside__link">Известные Авторы</a></li>
-                <li class="aside__item"><a href="#" class="aside__link">Белорусские Авторы</a></li>
-                <li class="aside__item"><a href="#" class="aside__link">Биографии</a></li>
-                <li class="aside__item"><a href="#" class="aside__link">О нас</a></li>
-                <li class="aside__item"><a href="#" class="aside__link">Зарубежные Авторы</a></li>
-            </ul>
-            <ul class="aside__list">
-                <li class="aside__item"><a href="#" class="aside__link">Настройка</a></li>
-                <li class="aside__item"><a href="#" class="aside__link">Поддержка</a></li>
-                <li class="aside__item"><a href="#" class="aside__link">Связь с нми</a></li>
-            </ul>
-            <ul class="aside__list">
-                <li class="aside__item"><a href="#" class="aside__link">Стихи</a></li>
-                <li class="aside__item"><a href="#" class="aside__link">Прозы</a></li>
-                <li class="aside__item"><a href="#" class="aside__link">Романы</a></li>
-                <li class="aside__item"><a href="#" class="aside__link">Сказки</a></li>
-                <li class="aside__item"><a href="#" class="aside__link">Документальное</a></li>
-            </ul>
-            <ul class="aside__list">
-                <li class="aside__item"><a href="#" class="aside__link">Известные Авторы</a></li>
-                <li class="aside__item"><a href="#" class="aside__link">Белорусские Авторы</a></li>
-                <li class="aside__item"><a href="#" class="aside__link">Биографии</a></li>
-                <li class="aside__item"><a href="#" class="aside__link">О нас</a></li>
-                <li class="aside__item"><a href="#" class="aside__link">Зарубежные Авторы</a></li>
-            </ul>
-            <ul class="aside__list">
-                <li class="aside__item"><a href="#" class="aside__link">Известные Авторы</a></li>
-                <li class="aside__item"><a href="#" class="aside__link">Белорусские Авторы</a></li>
-                <li class="aside__item"><a href="#" class="aside__link">Биографии</a></li>
-                <li class="aside__item"><a href="#" class="aside__link">О нас</a></li>
-                <li class="aside__item"><a href="#" class="aside__link">Зарубежные Авторы</a></li>
-            </ul>
-            <ul class="aside__list">
-                <li class="aside__item"><a href="#" class="aside__link">Известные Авторы</a></li>
-                <li class="aside__item"><a href="#" class="aside__link">Белорусские Авторы</a></li>
-                <li class="aside__item"><a href="#" class="aside__link">Биографии</a></li>
-                <li class="aside__item"><a href="#" class="aside__link">О нас</a></li>
-                <li class="aside__item"><a href="#" class="aside__link">Зарубежные Авторы</a></li>
-            </ul>
-            <ul class="aside__list">
-                <li class="aside__item"><a href="#" class="aside__link">Известные Авторы</a></li>
-                <li class="aside__item"><a href="#" class="aside__link">Белорусские Авторы</a></li>
-                <li class="aside__item"><a href="#" class="aside__link">Биографии</a></li>
-                <li class="aside__item"><a href="#" class="aside__link">О нас</a></li>
-                <li class="aside__item"><a href="#" class="aside__link">Зарубежные Авторы</a></li>
-            </ul>
-            <ul class="aside__list">
-                <li class="aside__item"><a href="#" class="aside__link">Известные Авторы</a></li>
-                <li class="aside__item"><a href="#" class="aside__link">Белорусские Авторы</a></li>
-                <li class="aside__item"><a href="#" class="aside__link">Биографии</a></li>
-                <li class="aside__item"><a href="#" class="aside__link">О нас</a></li>
-                <li class="aside__item"><a href="#" class="aside__link">Зарубежные Авторы</a></li>
-            </ul>
-        </div>
-    </aside>
+
     <main class="main">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus excepturi, autem quisquam neque accusamus commodi quaerat aperiam amet nulla corrupti non officiis harum! Iusto consectetur odio vitae ducimus iure a placeat consequuntur dolorem voluptatibus accusantium saepe possimus dolorum, minus omnis fuga corporis. Illo numquam eos quod maxime quaerat id ea hic quibusdam cum tempora. Rerum temporibus rem nesciunt ratione optio.Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus excepturi, autem quisquam neque accusamus commodi quaerat aperiam amet nulla corrupti non officiis harum! Iusto consectetur odio vitae ducimus iure a placeat consequuntur dolorem voluptatibus accusantium saepe possimus dolorum, minus omnis fuga corporis. Illo numquam eos quod maxime quaerat id ea hic quibusdam cum tempora. Rerum temporibus rem nesciunt ratione optio.Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus excepturi, autem quisquam neque accusamus commodi quaerat aperiam amet nulla corrupti non officiis harum! Iusto consectetur odio vitae ducimus iure a placeat consequuntur dolorem voluptatibus accusantium saepe possimus dolorum, minus omnis fuga corporis. Illo numquam eos quod maxime quaerat id ea hic quibusdam cum tempora. Rerum temporibus rem nesciunt ratione optio.Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus excepturi, autem quisquam neque accusamus commodi quaerat aperiam amet nulla corrupti non officiis harum! Iusto consectetur odio vitae ducimus iure a placeat consequuntur dolorem voluptatibus accusantium saepe possimus dolorum, minus omnis fuga corporis. Illo numquam eos quod maxime quaerat id ea hic quibusdam cum tempora. Rerum temporibus rem nesciunt ratione optio.Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus excepturi, autem quisquam neque accusamus commodi quaerat aperiam amet nulla corrupti non officiis harum! Iusto consectetur odio vitae ducimus iure a placeat consequuntur dolorem voluptatibus accusantium saepe possimus dolorum, minus omnis fuga corporis. Illo numquam eos quod maxime quaerat id ea hic quibusdam cum tempora. Rerum temporibus rem nesciunt ratione optio.Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus excepturi, autem quisquam neque accusamus commodi quaerat aperiam amet nulla corrupti non officiis harum! Iusto consectetur odio vitae ducimus iure a placeat consequuntur dolorem voluptatibus accusantium saepe possimus dolorum, minus omnis fuga corporis. Illo numquam eos quod maxime quaerat id ea hic quibusdam cum tempora. Rerum temporibus rem nesciunt ratione optio.Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus excepturi, autem quisquam neque accusamus commodi quaerat aperiam amet nulla corrupti non officiis harum! Iusto consectetur odio vitae ducimus iure a placeat consequuntur dolorem voluptatibus accusantium saepe possimus dolorum, minus omnis fuga corporis. Illo numquam eos quod maxime quaerat id ea hic quibusdam cum tempora. Rerum temporibus rem nesciunt ratione optio.Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus excepturi, autem quisquam neque accusamus commodi quaerat aperiam amet nulla corrupti non officiis harum! Iusto consectetur odio vitae ducimus iure a placeat consequuntur dolorem voluptatibus accusantium saepe possimus dolorum, minus omnis fuga corporis. Illo numquam eos quod maxime quaerat id ea hic quibusdam cum tempora. Rerum temporibus rem nesciunt ratione optio.Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus excepturi, autem quisquam neque accusamus commodi quaerat aperiam amet nulla corrupti non officiis harum! Iusto consectetur odio vitae ducimus iure a placeat consequuntur dolorem voluptatibus accusantium saepe possimus dolorum, minus omnis fuga corporis. Illo numquam eos quod maxime quaerat id ea hic quibusdam cum tempora. Rerum temporibus rem nesciunt ratione optio.Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus excepturi, autem quisquam neque accusamus commodi quaerat aperiam amet nulla corrupti non officiis harum! Iusto consectetur odio vitae ducimus iure a placeat consequuntur dolorem voluptatibus accusantium saepe possimus dolorum, minus omnis fuga corporis. Illo numquam eos quod maxime quaerat id ea hic quibusdam cum tempora. Rerum temporibus rem nesciunt ratione optio.
+        
+        <section class="ability">
+            <div class="container">
+                <div class="ability__list">
+                    <div class="ability__card">
+                        <img src="/images/icon_1.svg" alt="" class="ability__icon">
+                        <h4 class="ability__title">Easily Customised</h4>
+                        <div class="ability__text">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam quis risus eget urna mollis ornare vel eu leo. Donec ullamcorper nulla non metus auctor fringilla.</div>
+                    </div>
+                    <div class="ability__card">
+                        <img src="/images/icon_2.svg" alt="" class="ability__icon">
+                        <h4 class="ability__title">Responsive Ready</h4>
+                        <div class="ability__text">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam quis risus eget urna mollis ornare vel eu leo. Donec ullamcorper nulla non metus auctor fringilla.</div>
+                    </div>
+                    <div class="ability__card">
+                        <img src="/images/icon_3.svg" alt="" class="ability__icon">
+                        <h4 class="ability__title">Modern Design</h4>
+                        <div class="ability__text">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam quis risus eget urna mollis ornare vel eu leo. Donec ullamcorper nulla non metus auctor fringilla.</div>
+                    </div>
+                    <div class="ability__card">
+                        <img src="/images/icon_4.svg" alt="" class="ability__icon">
+                        <h4 class="ability__title">Clean Code</h4>
+                        <div class="ability__text">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam quis risus eget urna mollis ornare vel eu leo. Donec ullamcorper nulla non metus auctor fringilla.</div>
+                    </div>
+                    <div class="ability__card">
+                        <img src="/images/icon_5.svg" alt="" class="ability__icon">
+                        <h4 class="ability__title">Ready to Ship</h4>
+                        <div class="ability__text">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam quis risus eget urna mollis ornare vel eu leo. Donec ullamcorper nulla non metus auctor fringilla.</div>
+                    </div>
+                    <div class="ability__card">
+                        <img src="/images/icon_6.svg" alt="" class="ability__icon">
+                        <h4 class="ability__title">Download for Free</h4>
+                        <div class="ability__text">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam quis risus eget urna mollis ornare vel eu leo. Donec ullamcorper nulla non metus auctor fringilla.</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="gallery">
+            <div class="gallery__card">
+                <div class="gallery__box">
+                    <h4 class="gallery__title">Project Name</h4>
+                    <p class="gallery__text title6">User Interface Design</p>
+                </div>
+                <img src="./images/work_1.jpg" alt="" class="gallery__image">
+            </div>
+            <div class="gallery__card">
+                <div class="gallery__box">
+                    <h4 class="gallery__title">Project Name</h4>
+                    <p class="gallery__text title6">User Interface Design</p>
+                </div>
+                <img src="./images/work_2.jpg" alt="" class="gallery__image">
+            </div>
+            <div class="gallery__card">
+                <div class="gallery__box">
+                    <h4 class="gallery__title">Project Name</h4>
+                    <p class="gallery__text title6">User Interface Design</p>
+                </div>
+                <img src="./images/work3.jpg" alt="" class="gallery__image">
+            </div>
+            <div class="gallery__card">
+                <div class="gallery__box">
+                    <h4 class="gallery__title">Project Name</h4>
+                    <p class="gallery__text title6">User Interface Design</p>
+                </div>
+                <img src="./images/work_4.jpg" alt="" class="gallery__image">
+            </div>
+            <div class="gallery__card">
+                <div class="gallery__box">
+                    <h4 class="gallery__title">Project Name</h4>
+                    <p class="gallery__text title6">User Interface Design</p>
+                </div>
+                <img src="./images/work_5.jpg" alt="" class="gallery__image">
+            </div>
+            <div class="gallery__card">
+                <div class="gallery__box">
+                    <h4 class="gallery__title">Project Name</h4>
+                    <p class="gallery__text title6">User Interface Design</p>
+                </div>
+                <img src="./images/work_6.jpg" alt="" class="gallery__image">
+            </div>
+            <div class="gallery__card">
+                <div class="gallery__box">
+                    <h4 class="gallery__title">Project Name</h4>
+                    <p class="gallery__text title6">User Interface Design</p>
+                </div>
+                <img src="./images/work_7.jpg" alt="" class="gallery__image">
+            </div>
+            <div class="gallery__card">
+                <div class="gallery__box">
+                    <h4 class="gallery__title">Project Name</h4>
+                    <p class="gallery__text title6">User Interface Design</p>
+                </div>
+                <img src="./images/work_8.jpg" alt="" class="gallery__image">
+            </div>
+        </section>
+
+        <section class="team">
+            <div class="container">
+                <div class="team__wrap">
+                    <div class="team__card">
+                        <img src="./images/person1.jpg" alt="" class="team__image">
+                        <h4 class="team__name">Ruth woods</h4>
+                        <div class="team__work title5">founder, ceo</div>
+                        <p class="team__text title5">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam quis risus eget urna mollis ornare vel eu leo.</p>
+                        <div class="team__social">
+                            <div class="team__icon"><i class="fa-brands fa-facebook-f"></i></div>
+                            <div class="team__icon"><i class="fa-brands fa-twitter"></i></div>
+                            <div class="team__icon"><i class="fa-brands fa-linkedin"></i></div>
+                        </div>
+                    </div>
+                    <div class="team__card">
+                        <img src="./images/person2.jpg" alt="" class="team__image">
+                        <h4 class="team__name">Timothy Reed</h4>
+                        <div class="team__work title5">co-founder, developer</div>
+                        <p class="team__text title5">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam quis risus eget urna mollis ornare vel eu leo.</p>
+                        <div class="team__social">
+                            <div class="team__icon"><i class="fa-brands fa-facebook-f"></i></div>
+                            <div class="team__icon"><i class="fa-brands fa-twitter"></i></div>
+                            <div class="team__icon"><i class="fa-brands fa-linkedin"></i></div>
+                        </div>
+                    </div>
+                    <div class="team__card">
+                        <img src="./images/person3.jpg" alt="" class="team__image">
+                        <h4 class="team__name">Victoria Vladez</h4>
+                        <div class="team__work title5">ui designer</div>
+                        <p class="team__text title5">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam quis risus eget urna mollis ornare vel eu leo.</p>
+                        <div class="team__social">
+                            <div class="team__icon"><i class="fa-brands fa-facebook-f"></i></div>
+                            <div class="team__icon"><i class="fa-brands fa-twitter"></i></div>
+                            <div class="team__icon"><i class="fa-brands fa-linkedin"></i></div>
+                        </div>
+                    </div>
+                    <div class="team__card">
+                        <img src="./images/person4.jpg" alt="" class="team__image">
+                        <h4 class="team__name">Beverly Little</h4>
+                        <div class="team__work title5">data scientist</div>
+                        <p class="team__text title5">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam quis risus eget urna mollis ornare vel eu leo.</p>
+                        <div class="team__social">
+                            <div class="team__icon"><i class="fa-brands fa-facebook-f"></i></div>
+                            <div class="team__icon"><i class="fa-brands fa-twitter"></i></div>
+                            <div class="team__icon"><i class="fa-brands fa-linkedin"></i></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="offers">
+            <div class="swiper">
+                <div class="swiper__wrapper">
+                    <div class="swiper__slide">
+                        <img src="./images/bg.jpg" alt="" class="offers__image">
+                        <div class="offers__description">
+                            <h2 class="offers__title">“Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec sed odio dui. Aenean eu leo quam...”</h2>
+                            <p class="offers__subtitle title6">Susan Sims, Interaction Designer at XYZ</p>
+                        </div> 
+                    </div>
+                    <div class="swiper__slide">
+                        <img src="./images/bg.jpg" alt="" class="offers__image">
+                        <div class="offers__description">
+                            <h2 class="offers__title">“Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec sed odio dui. Aenean eu leo quam...”</h2>
+                            <p class="offers__subtitle title6">Susan Sims, Interaction Designer at XYZ</p>
+                        </div> 
+                    </div>
+                    <div class="swiper__slide">
+                        <img src="./images/bg.jpg" alt="" class="offers__image">
+                        <div class="offers__description">
+                            <h2 class="offers__title">“Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec sed odio dui. Aenean eu leo quam...”</h2>
+                            <p class="offers__subtitle title6">Susan Sims, Interaction Designer at XYZ</p>
+                        </div> 
+                    </div>
+                    <div class="swiper__slide">
+                        <img src="./images/bg.jpg" alt="" class="offers__image">
+                        <div class="offers__description">
+                            <h2 class="offers__title">“Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec sed odio dui. Aenean eu leo quam...”</h2>
+                            <p class="offers__subtitle title6">Susan Sims, Interaction Designer at XYZ</p>
+                        </div> 
+                    </div>
+                    <div class="swiper__slide">
+                        <img src="./images/bg.jpg" alt="" class="offers__image">
+                        <div class="offers__description">
+                            <h2 class="offers__title">“Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec sed odio dui. Aenean eu leo quam...”</h2>
+                            <p class="offers__subtitle title6">Susan Sims, Interaction Designer at XYZ</p>
+                        </div> 
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+        <section class="ready">
+            <div class="container">
+                <h3 class="ready__title">Are You Ready to Start? Download Now For Free!</h3>
+                <p class="ready__subtitle title5">Fusce dapibus, tellus ac cursus commodo</p>
+                <input type="button" class="btn ready__btn" value="download here">
+            </div>
+        </section>
     </main>
-    <div class="main2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam similique consectetur eius excepturi ex veritatis accusamus nisi assumenda animi inventore vel placeat ab ducimus illum nulla recusandae perferendis voluptatum, fuga quaerat nemo voluptas rerum reprehenderit harum blanditiis. Magnam sequi temporibus dolore dolorem aliquam neque beatae doloribus, repellendus esse numquam qui optio, totam dignissimos tempora rerum enim obcaecati facilis sunt nemo.</div>
-    <footer class="footer"></footer>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__wrap">
+                <div class="footer__location">
+                    <h5 class="footer__title">location</h5>
+                    <p class="footer__subtitle title5">3481 Melrose Place Beverly Hills, CA 90210</p>
+                </div>
+                <div class="footer__share">
+                    <h5 class="footer__title">share with love</h5>
+                    <div class="footer__social">
+                        <div class="social__item"> <i class="fa-brands fa-facebook-f"></i></div>
+                        <div class="social__item"><i class="fa-brands fa-twitter"></i></div>
+                        <div class="social__item"><i class="fa-brands fa-linkedin"></i></div>
+                    </div>
+                </div>
+                <div class="footer__about">
+                    <h5 class="footer__title">About ActiveBox</h5>
+                    <p class="footer__subtitle">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec ullamcorper nulla non metus auctor fringilla.</p>
+                </div>
+            </div>
+            <div class="footer__wrap2">
+                <p class="footer__text">Copyright © 2015 ActiveBox. All Rights Reserved Made with <a href="#">by Kamal Chaneman</a></p>
+            </div>
+        </div>
+    </footer>
 
     <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
     <script src="./script.js"></script>
