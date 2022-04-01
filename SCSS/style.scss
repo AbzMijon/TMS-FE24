@@ -14,7 +14,6 @@ img {
 }
 body {
     font-family: 'Raleway', sans-serif;
-/*     font-family: 'Cardo', serif; */
     font-weight: 400;
     font-size: 18px;
     line-height: 21px;
@@ -155,6 +154,7 @@ h6 , .title6 {
         background-color: #ff4343;
         position: relative;
         cursor: pointer;
+        text-align: center;
         .gallery__box {
             color: #fff;
             display: none;
@@ -164,6 +164,7 @@ h6 , .title6 {
             transform: translate(-50%);
             .gallery__title {
                 margin-bottom: 20px;
+                color: #fff;
             }
         }
         &:hover .gallery__box {
@@ -172,6 +173,111 @@ h6 , .title6 {
         }
         &:hover img {
             opacity: 0.3;
+        }
+    }
+}
+
+.team {
+    padding: 115px 0;
+    .team__wrap {
+        display: grid;
+        grid-template-columns: repeat(4 ,1fr);
+        grid-template-rows: auto;
+        .team__card {
+            text-align: left;
+            .team__image {
+                margin-bottom: 30px;
+            }
+            .team__name {
+                margin-bottom: 5px;
+            }
+            .team__work {
+                text-transform: uppercase;
+                color: #FF4343;
+                margin-bottom: 17px;
+            }
+            .team__text {
+                margin-bottom: 40px;
+            }
+            .team__social {
+                display: flex;
+                .team__icon {
+                    border: 1px solid #C6CBCD;
+                    padding: 10px 15px;
+                    margin-right: 5px;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
+
+.offers {
+    
+    .offers__card {
+        display: grid;
+        grid-template-columns: repeat(2 ,1fr);
+        grid-template-rows: auto;
+        img {
+            width: 100%;
+        }
+        .offers__description {
+            background-color: #5C3249;
+            padding: 120px 125px;
+            color: #fff;
+            text-align: left;
+            .offers__title {
+                font-family: 'Cardo';
+                margin-bottom: 10px;
+            }
+        }
+    }
+}
+
+.ready {
+    padding: 160px 170px 115px 170px;
+    text-align: center;
+    .ready__title {
+        margin-bottom: 15px;
+    }
+    .ready__subtitle {
+        margin-bottom: 45px;
+    }
+}
+.footer {
+    color: #fff;
+    .footer__wrap {
+        text-align: center;
+        padding: 70px 170px;
+        background-color: #353C65;
+        display: grid;
+        grid-template-columns: repeat(3 ,1fr);
+        grid-template-rows: auto;
+        .footer__title {
+            text-transform: uppercase;
+            font-weight: bold;
+            margin-bottom: 30px;
+        }
+        .footer__social {
+            display: inline-flex;
+            .social__item {
+                border: 1px solid #C6CBCD;
+                padding: 10px 15px;
+                margin: 0 auto;
+            }
+            .social__item + .social__item {
+                margin-left: 30px;
+            }
+        }
+    }
+    .footer__wrap--dark {
+        text-align: center;
+        background-color: #2C3154;
+        padding: 25px 0;
+        color:  #808080;
+        a {
+            color: #fff;
+            text-decoration: none;
         }
     }
 }
