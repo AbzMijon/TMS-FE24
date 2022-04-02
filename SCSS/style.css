@@ -224,7 +224,6 @@ h6, .title6 {
 .ability .ability__list {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[3];
       grid-template-columns: repeat(3, 1fr);
   -ms-grid-rows: auto;
       grid-template-rows: auto;
@@ -248,7 +247,6 @@ h6, .title6 {
 .gallery {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[4];
       grid-template-columns: repeat(4, 1fr);
   -ms-grid-rows: auto;
       grid-template-rows: auto;
@@ -292,7 +290,6 @@ h6, .title6 {
 .team .team__wrap {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[4];
       grid-template-columns: repeat(4, 1fr);
   -ms-grid-rows: auto;
       grid-template-rows: auto;
@@ -336,7 +333,6 @@ h6, .title6 {
 .offers .offers__card {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[2];
       grid-template-columns: repeat(2, 1fr);
   -ms-grid-rows: auto;
       grid-template-rows: auto;
@@ -381,7 +377,6 @@ h6, .title6 {
   background-color: #353C65;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[3];
       grid-template-columns: repeat(3, 1fr);
   -ms-grid-rows: auto;
       grid-template-rows: auto;
