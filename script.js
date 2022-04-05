@@ -9,11 +9,3 @@ const swiper = new Swiper('.swiper', {
 });
 const txt = 'hello)'
 console.log(txt);
-
-
-
-/*
-
-    
-
-*/
